@@ -1,7 +1,12 @@
 # devedanos-portfolio
 
+Welcome on the code repository my portofolio website, AKA [www.devedanos.com](https://devedanos.com),
+showing online my professional web development activities.
+
+Project management folder available on [here](https://www.notion.so/devedanos-com-162e730d2e3a4ef796c974f1a0fc4742)
+
+This portfolio is built with Ember.js framework and Empress-blog, its JAMstack plugin. 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
 
 ## Prerequisites
 
@@ -52,6 +57,7 @@ Specify what it takes to deploy your app.
 
 * [ember.js](https://emberjs.com/)
 * [ember-cli](https://ember-cli.com/)
+* [empress-blog](https://github.com/empress/empress-blog)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
