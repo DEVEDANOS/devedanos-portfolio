@@ -22,14 +22,14 @@ module.exports = {
   },
   rules: {
     indent: ['error', 2],
-    'comma-dangle': ['error', {
+    'comma-dangle': ['warn', {
       arrays: 'always-multiline',
       objects: 'always-multiline',
       imports: 'always-multiline',
       exports: 'always-multiline',
       functions: 'always-multiline',
     }],
-    semi: ['error', 'always'],
+    semi: ['warn', 'always'],
   },
   noInlineConfig: false,
   overrides: [
