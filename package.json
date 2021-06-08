@@ -2,10 +2,10 @@
   "name": "devedanos-portfolio",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for devedanos-portfolio goes here",
-  "repository": "",
+  "description": "Portfolio website available at devedanos.com, presenting the web development services of SEBASTIEN THIBAUT NOBOUR",
+  "repository": "https://github.com/SEBASTIEN-THIBAUT-NOBOUR/devedanos-portfolio.git",
   "license": "MIT",
-  "author": "",
+  "author": "daproclaima <sn.itpro@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -34,6 +34,7 @@
     "ember-cli-app-version": "^5.0.0",
     "ember-cli-babel": "^7.26.3",
     "ember-cli-dependency-checker": "^3.2.0",
+    "ember-cli-fastboot": "^2.2.3",
     "ember-cli-htmlbars": "^5.7.1",
     "ember-cli-inject-live-reload": "^2.0.2",
     "ember-cli-sri": "^2.1.1",
@@ -49,6 +50,7 @@
     "ember-source": "~3.26.1",
     "ember-template-lint": "^3.2.0",
     "ember-welcome-page": "^4.0.0",
+    "empress-blog": "^3.2.0",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-ember": "^10.3.0",
@@ -56,6 +58,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "loader.js": "^4.7.0",
     "npm-run-all": "^4.1.5",
+    "prember": "^1.0.5",
     "prettier": "^2.2.1",
     "qunit": "^2.14.1",
     "qunit-dom": "^1.6.0"
@@ -65,5 +68,6 @@
   },
   "ember": {
     "edition": "octane"
-  }
+  },
+  "main": "/app/index.html"
 }
