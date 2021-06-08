@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = function (environment) {
+  // eslint-disable-next-line prefer-const
   let ENV = {
     modulePrefix: 'devedanos-portfolio',
     environment,
@@ -30,13 +31,13 @@ module.exports = function (environment) {
 
       navigation: [{
         label: 'Home',
-        route: 'index'
+        route: 'index',
       }, {
         label: 'Built by Chris Manson',
         route: 'page',
-        id: 'chris-manson'
-      }]
-    }
+        id: 'chris-manson',
+      }],
+    },
   };
 
   if (environment === 'development') {

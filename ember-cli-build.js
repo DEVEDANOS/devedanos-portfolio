@@ -3,10 +3,11 @@
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function (defaults) {
+  // eslint-disable-next-line prefer-const
   let app = new EmberApp(defaults, {
     fingerprint: {
-      extensions: ['js', 'css', 'map']
-    }
+      extensions: ['js', 'css', 'map'],
+    },
   });
 
   // Use `app.import` to add additional libraries to the generated
