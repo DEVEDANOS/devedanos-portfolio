@@ -12,20 +12,32 @@ module.exports = {
   },
   plugins: ['ember'],
   extends: [
-    'eslint:recommended',
+    // 'eslint:recommended',
+    'standard',
     'plugin:ember/recommended',
-    'plugin:prettier/recommended',
+    // 'plugin:prettier/recommended',
   ],
   env: {
     browser: true,
   },
-  rules: {},
+  rules: {
+    indent: ['error', 2],
+    'comma-dangle': ['error', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'always-multiline',
+    }],
+    semi: ['error', 'always'],
+  },
+  noInlineConfig: false,
   overrides: [
     // node files
     {
       files: [
         '.eslintrc.js',
-        '.prettierrc.js',
+        // '.prettierrc.js',
         '.template-lintrc.js',
         'ember-cli-build.js',
         'testem.js',
