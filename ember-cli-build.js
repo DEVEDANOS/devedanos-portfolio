@@ -18,7 +18,7 @@ module.exports = function (defaults) {
   // eslint-disable-next-line prefer-const
   let app = new EmberApp(defaults, {
     fingerprint: {
-      extensions: ['js', 'css', 'map'],
+      extensions: ['js', 'css', 'scss', 'map'],
     },
     postcssOptions: {
       compile: {
@@ -28,6 +28,9 @@ module.exports = function (defaults) {
             options: {
               path: ['node_modules'],
             },
+          },
+          {
+            module: require('precss'),
           },
           require('tailwindcss')('./app/tailwind/config.js'),
           ...isProduction ? [purgeCSS] : [],

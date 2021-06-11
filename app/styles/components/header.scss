@@ -1,0 +1,57 @@
+
+.nav-main {
+  &__logo-dot {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    @apply bg-pale-orange;
+  }
+
+  &__logo-text {
+    @apply text-black;
+  }
+
+  &__contact-button {
+    @apply bg-vibrant-orange;
+    @apply text-white;
+
+    &:focus {
+      @apply bg-vibrant-orange;
+      @apply text-white;
+    }
+  }
+}
+
+.language-picker {
+  /* &__button {
+    @apply bg-light-gray;
+  } */
+
+  &__flag {
+    &--english {
+      background-image: url('/assets/images/flags/en-us.png');
+      background-position: 100% 0;
+      background-repeat: no-repeat;
+    }
+
+    &--french {
+      background-image: url('/assets/images/flags/fr-fr.png');
+      background-position: 100% 0;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.nav-links {
+  .nav-link {
+    &:hover {
+      @apply bg-black;
+      @apply text-white;
+    }
+  }
+
+  .active {
+    @apply bg-light-gray;
+    @apply text-black;
+  }
+}

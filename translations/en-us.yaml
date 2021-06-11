@@ -1,0 +1,30 @@
+devedanos: 'Devedanos'
+logo: 'logo'
+
+pages:
+  home:
+    title: 'Devedanos | Home'
+languages:
+  list:
+    fr-fr: 'Français'
+    en-us: 'English'
+images:
+  flags:
+    fr-fr:
+      alt: 'French flag'
+    en-us:
+      alt: 'USA flag'
+links:
+  home: 'Home'
+  home-logo: 'Devedanos logo. Click on it to return to home page'
+navbar:
+  nav-main:
+    button-mobile-menu:
+      description: 'Open main menu'
+    language-picker:
+      aria-label: 'English, Select your language'
+      description: 'Select your language'
+      button-image:
+        alt: '{language} language is currently active.'
+    contact:
+      text: 'Contact me'

@@ -1,0 +1,29 @@
+devedanos: "Devedanos"
+logo: "logo"
+pages:
+  home:
+    title: "Devedanos | Accueil"
+languages:
+  list:
+    fr-fr: "Français"
+    en-us: "English"
+images:
+  flags:
+    fr-fr:
+      alt: "Drapeau de France"
+    en-us:
+      alt: "Drapeau des USA"
+links:
+  home: "Accueil"
+  home-logo: "Logo de Devedanos. Clicquez dessus pour retourner en page d'accueil"
+navbar:
+  nav-main:
+    button-mobile-menu:
+      description: "Ouvrir le menu principal"
+    language-picker:
+      aria-label: "Français, choisissez votre langue"
+      description: "Choisissez votre langue"
+      button-image:
+        alt: "{language} est la langue actuellement active."
+    contact:
+      text: "Me contacter"

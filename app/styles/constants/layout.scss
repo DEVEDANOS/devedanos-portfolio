@@ -1,0 +1,46 @@
+html {
+  font-size: 16px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  min-height: 1em;
+  min-width: 1em;
+}
+
+a {
+  @apply text-orange;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.bg-light-gray {
+  background-color: $light-gray;
+}
+
+.bg-pale-orange {
+  background-color: $pale-orange;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+.bg-vibrant-orange {
+  background-color: $vibrant-orange;
+}
