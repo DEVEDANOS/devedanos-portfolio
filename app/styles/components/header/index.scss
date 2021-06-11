@@ -1,0 +1,46 @@
+.nav-main {
+  width: 100%;
+
+  &__logo-dot {
+    background-color: $pale-orange;
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+  }
+
+  &__logo-text {
+    bottom: 2px;
+    color: $black;
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    right: 16px;
+  }
+
+  &__contact-button {
+    background-color: $black;
+    color: $white;
+
+    &:focus {
+      background-color: $vibrant-orange;
+      color: $white;
+    }
+  }
+}
+
+.language-picker {
+  &__button {
+    background-color: $light-grey;
+  }
+
+  &__flag {
+    &--english {
+      background-image: url('/public/assets/images/flags/en-us.png');
+    }
+
+    &--french {
+      background-image: url('/public/assets/images/flags/fr-fr.png');
+    }
+  }
+}

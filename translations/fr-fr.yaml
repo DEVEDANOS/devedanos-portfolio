@@ -1,0 +1,26 @@
+devedanos: "Devedanos"
+pages:
+  home:
+    title: "Devedanos | Accueil"
+languages:
+  list:
+    fr-fr: "Français"
+    en-us: "English"
+images:
+  flags:
+    fr-fr:
+      alt: "Drapeau de France"
+    en-us:
+      alt: "Drapeau des USA"
+links:
+  home: "Accueil"
+navbar:
+  nav-main:
+    language-picker:
+      aria-label: "Français, choisissez votre langue"
+      description: "Choisissez votre langue"
+      button:
+        image:
+          alt: "Drapeau de la langue active"
+    contact:
+      text: "Me contacter"
