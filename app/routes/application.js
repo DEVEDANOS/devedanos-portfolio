@@ -6,6 +6,7 @@ export default class ApplicationRoute extends Route {
 
   constructor () {
     super(...arguments);
-    this.intl.setLocale(['en-us']);
+    const primaryLocale = this.intl.get('primaryLocale');
+    this.intl.setLocale([primaryLocale]);
   }
 }

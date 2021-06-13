@@ -36,11 +36,15 @@
 
   &__flag {
     &--english {
-      background-image: url('/public/assets/images/flags/en-us.png');
+      background-image: url('/assets/images/flags/en-us.png');
+      background-position: 100% 0;
+      background-repeat: no-repeat;
     }
 
     &--french {
-      background-image: url('/public/assets/images/flags/fr-fr.png');
+      background-image: url('/assets/images/flags/fr-fr.png');
+      background-position: 100% 0;
+      background-repeat: no-repeat;
     }
   }
 }

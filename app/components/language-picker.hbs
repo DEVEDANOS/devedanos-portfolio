@@ -8,14 +8,14 @@
     <FaIcon @icon="globe" />
   </button>
   <div
-    class="language-picker__dropdown absolute w-30 ml-4 mt-1 px-4 py-1.5 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+    class="language-picker__dropdown absolute hidden w-32 top-0 mt-0.5 ml-4 px-4 py-1.5 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
     aria-describedby="language-picker-description"
     id="language-picker-dropdown"
   >
     <p class="sr-only" id="language-picker-description">{{t "navbar.nav-main.language-picker.description"}}</p>
     <ul class="language-picker__list" role="listbox">
       <li lang="fr" role="option" data-value="fr-fr"
-          class="language-picker__item language-picker__flag language-picker__flag--english"
+          class="language-picker__item language-picker__flag language-picker__flag--french"
           {{on "click" this.changeLanguage}}
       >
         {{t "languages.list.fr-fr"}}

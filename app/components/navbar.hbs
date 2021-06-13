@@ -33,7 +33,9 @@
     <div class="nav-dropdown__links nav-links" role="none">
       <LinkTo @route="index"
               class="nav-dropdown__link block px-4 py-2 text-sm"
-              role="menuitem" tabindex="-1">
+              role="menuitem" tabindex="-1"
+              {{on 'click' this.toggleLinks}}
+      >
         {{t "links.home"}}
       </LinkTo>
     </div>
