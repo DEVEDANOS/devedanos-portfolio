@@ -1,43 +1,47 @@
 <nav class="h-16 shadow-md">
-  <div class="nav-main pl-8 pr-5 my-auto flex">
-    <div class="nav-main__logo-dot flex-initial my-5 pr-5 ">
-      <LinkTo @route="index">
-        <span class="text-xs nav-main__logo-text">{{t "devedanos"}}</span>
-      </LinkTo>
-    </div>
-    <div class="nav-main__language-picker flex-initial mt-5">
-      <LanguagePicker />
-    </div>
-    <div class="nav-main__dropdown flex-initial mt-5 pt-0.5 ml-7 lg:hidden">
-      <button class="button nav-main__button" type="button" {{on "click" this.toggleLinks}}>
-      <FaIcon @icon="chevron-down" />
-      </button>
-    </div>
-    <div class="nav-main__links nav-links flex-initial w-0 mt-5 hidden lg:mx-auto lg:inline-block" role="menu" aria-orientation="horizontal">
-        <LinkTo @route="index"
-                class="nav-main__link px-4"
-                role="menuitem">
+  <div class="nav-main max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="nav-main__logo relative flex items-center justify-between h-16">
+      <div class="nav-main__logo w-16 my-5 p-0">
+        <div class="nav-main__logo-dot absolute h-full w-full top-5 left-4"></div>
+        <LinkTo @route="index">
+          <span class="nav-main__logo-text absolute text-xs top-6">{{t "devedanos"}}</span>
         </LinkTo>
-    </div>
-    <div class="nav-main__contact flex-initial mt-5 ml-auto">
-      <a href="#contact-form"
-         class="button nav-main__contact-button py-2 px-4 text-xs font-bold rounded-md shadow uppercase hover:bg-gray-800"
-         role="button">
-        {{t "navbar.nav-main.contact.text"}}
-      </a>
-    </div>
-  </div>
-  <div class="nav-dropdown absolute w-screen -mt-0.5 px-0 hidden rounded-b-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
-       role="menu" aria-orientation="vertical"
-  >
-    <div class="nav-dropdown__links nav-links" role="none">
-      <LinkTo @route="index"
-              class="nav-dropdown__link block px-4 py-2 text-sm"
-              role="menuitem" tabindex="-1"
-              {{on 'click' this.toggleLinks}}
-      >
-        {{t "links.home"}}
-      </LinkTo>
+      </div>
+
+{{!--    <div class="nav-main__language-picker flex-initial mt-5">--}}
+{{!--      <LanguagePicker />--}}
+{{!--    </div>--}}
+{{!--    <div class="nav-main__dropdown mt-5 pt-0.5 ml-7 lg:hidden">--}}
+{{!--      <button class="button nav-main__button" type="button" {{on "click" this.toggleLinks}}>--}}
+{{!--      <FaIcon @icon="chevron-down" />--}}
+{{!--      </button>--}}
+{{!--    </div>--}}
+{{!--    <div class="nav-main__links nav-links w-0 mt-5 hidden lg:mx-auto lg:inline-block" role="menu" aria-orientation="horizontal">--}}
+{{!--        <LinkTo @route="index"--}}
+{{!--                class="nav-main__link px-4"--}}
+{{!--                role="menuitem">--}}
+{{!--        </LinkTo>--}}
+{{!--    </div>--}}
+{{!--    <div class="nav-main__contact mt-5 ml-auto">--}}
+{{!--      <a href="#contact-form"--}}
+{{!--         class="button nav-main__contact-button py-2 px-4 text-xs font-bold rounded-md shadow uppercase hover:bg-gray-800"--}}
+{{!--         role="button">--}}
+{{!--        {{t "navbar.nav-main.contact.text"}}--}}
+{{!--      </a>--}}
+{{!--    </div>--}}
+{{!--  </div>--}}
+{{!--  <div class="nav-dropdown absolute w-screen -mt-0.5 px-0 hidden rounded-b-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"--}}
+{{!--       role="menu" aria-orientation="vertical"--}}
+{{!--  >--}}
+{{!--    <div class="nav-dropdown__links nav-links" role="none">--}}
+{{!--      <LinkTo @route="index"--}}
+{{!--              class="nav-dropdown__link block px-4 py-2 text-sm"--}}
+{{!--              role="menuitem" tabindex="-1"--}}
+{{!--              {{on 'click' this.toggleLinks}}--}}
+{{!--      >--}}
+{{!--        {{t "links.home"}}--}}
+{{!--      </LinkTo>--}}
+{{!--    </div>--}}
     </div>
   </div>
 </nav>
