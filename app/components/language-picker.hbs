@@ -1,31 +1,29 @@
-<div class="language-picker">
-  <button type="button" aria-label={{t "navbar.nav-main.language-picker.aria-label"}}
-          aria-expanded="false" aria-controls="language-picker-dropdown"
-          class="button language-picker__button mt-0.5 ml-10 lg:ml-40 h-6 w-6 rounded-full shadow"
-    {{on "click" this.showLanguages}}
-  >
-    <span aria-hidden="true" class="language-picker__flag--english"></span>
-    <FaIcon @icon="globe" />
-  </button>
-  <div
-    class="language-picker__dropdown absolute hidden w-32 top-0 mt-0.5 ml-4 px-4 py-1.5 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
-    aria-describedby="language-picker-description"
-    id="language-picker-dropdown"
-  >
-    <p class="sr-only" id="language-picker-description">{{t "navbar.nav-main.language-picker.description"}}</p>
-    <ul class="language-picker__list" role="listbox">
-      <li lang="fr" role="option" data-value="fr-fr"
-          class="language-picker__item language-picker__flag language-picker__flag--french"
-          {{on "click" this.changeLanguage}}
-      >
-        {{t "languages.list.fr-fr"}}
-      </li>
-      <li lang="en" aria-selected="true" role="option" data-value="en-us"
-           class="language-picker__item language-picker__flag language-picker__flag--english"
-          {{on "click" this.changeLanguage}}
-      >
-        {{t "languages.list.en-us"}}
-      </li>
-    </ul>
-  </div>
+<button type="button" aria-label={{t "navbar.nav-main.language-picker.aria-label"}}
+        aria-expanded="false" aria-controls="language-picker-dropdown"
+        class="button language-picker__button h-6 w-6 -auto rounded-full shadow"
+  {{on "click" this.showLanguages}}
+>
+  <span aria-hidden="true" class="language-picker__flag--english"></span>
+  <FaIcon @icon="globe" />
+</button>
+<div
+  class="language-picker__dropdown absolute hidden w-32 top-0 mt-0.5 ml-4 px-4 py-1.5 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+  aria-describedby="language-picker-description"
+  id="language-picker-dropdown"
+>
+  <p class="sr-only" id="language-picker-description">{{t "navbar.nav-main.language-picker.description"}}</p>
+  <ul class="language-picker__list" role="listbox">
+    <li lang="fr" role="option" data-value="fr-fr"
+        class="language-picker__item language-picker__flag language-picker__flag--french"
+      {{on "click" this.changeLanguage}}
+    >
+      {{t "languages.list.fr-fr"}}
+    </li>
+    <li lang="en" aria-selected="true" role="option" data-value="en-us"
+        class="language-picker__item language-picker__flag language-picker__flag--english"
+      {{on "click" this.changeLanguage}}
+    >
+      {{t "languages.list.en-us"}}
+    </li>
+  </ul>
 </div>
