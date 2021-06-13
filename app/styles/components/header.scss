@@ -12,12 +12,12 @@
   }
 
   &__contact-button {
-    @apply bg-vibrant-orange;
+    @apply bg-pale-orange;
     @apply text-white;
 
     &:focus {
-      @apply bg-vibrant-orange;
-      @apply text-white;
+      @apply bg-light-gray;
+      @apply text-pale-orange;
     }
   }
 }
