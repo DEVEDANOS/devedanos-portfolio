@@ -18,7 +18,7 @@ module.exports = function (defaults) {
   // eslint-disable-next-line prefer-const
   let app = new EmberApp(defaults, {
     fingerprint: {
-      extensions: ['js', 'css', 'scss', 'map'],
+      extensions: ['js', 'css', 'scss', 'map', 'json', 'md', 'jpg', 'jpeg', 'png'],
     },
     postcssOptions: {
       compile: {
