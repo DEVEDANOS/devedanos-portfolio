@@ -16,6 +16,8 @@ links:
   home: "Home"
 navbar:
   nav-main:
+    button-mobile-menu:
+      description: "Open main menu"
     language-picker:
       aria-label: "English, Select your language"
       description: "Select your language"

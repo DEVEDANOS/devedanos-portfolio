@@ -1,6 +1,3 @@
-nav {
-  background-color: $white;
-}
 
 .nav-main {
   &__logo-dot {
@@ -42,5 +39,19 @@ nav {
       background-position: 100% 0;
       background-repeat: no-repeat;
     }
+  }
+}
+
+.nav-links {
+  .nav-link {
+    &:hover {
+      background-color: $light-grey;
+      color: $white;
+    }
+  }
+
+  .active {
+    background-color: $pale-orange;
+    color: $white;
   }
 }
