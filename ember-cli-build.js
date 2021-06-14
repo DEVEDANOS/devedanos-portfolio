@@ -38,6 +38,13 @@ module.exports = function (defaults) {
         ],
       },
     },
+    /*
+    'esw-cache-fallback': {
+      patterns: [
+        '/api/v1/(.+)'
+      ],
+    }
+    */
   });
 
   // Use `app.import` to add additional libraries to the generated
