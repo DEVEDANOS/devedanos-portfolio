@@ -2,6 +2,8 @@ html {
   font-size: 16px;
   height: 100%;
   left: 0;
+  margin: 0;
+  padding: 0;
   position: absolute;
   top: 0;
   width: 100%;
@@ -27,6 +29,10 @@ a {
 
 .bg-black {
   background-color: $black;
+
+  &--smock {
+    background-color: $black-smock;
+  }
 }
 
 .bg-light-gray {
@@ -43,4 +49,9 @@ a {
 
 .bg-vibrant-orange {
   background-color: $vibrant-orange;
+}
+
+
+.banner-height {
+  height: 36rem;
 }
