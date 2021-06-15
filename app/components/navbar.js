@@ -15,4 +15,12 @@ export default class NavbarComponent extends Component {
     buttonMobileMenuClosed.classList.toggle('hidden');
     return buttonMobileMenuOpened.classList.toggle('hidden');
   }
+
+  // changeNavbarBackgroundColor = () => {
+  //   const navbar = document.querySelector('#navbar');
+  //   if (window.scrollY <= 10) {
+  //     return navbar.classList.add('bg-white');
+  //   }
+  //   return navbar.classList.add('bg-transparent');
+  // }
 }
