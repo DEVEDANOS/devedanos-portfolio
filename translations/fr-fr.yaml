@@ -5,11 +5,12 @@ pages:
     title: "Devedanos | Accueil"
     banners:
       usp:
-        title: "J'aide les entreprises à créer leurs propres applications web sur mesure
-        avec Node.js et Javascript."
+        title: "J'aide les entreprises à créer leurs propres applications web sur mesure."
 #        title: "<h1>J'aide les entreprises à créer</h1><h1>leurs propres sites et applications web sur mesure</h1><h1>avec Node.js et Javascript.</h1>"
         image:
           description: "Image avec vue sur un coucher de soleil, des nuages et sommets de montagnes en contrebas"
+      creations:
+        title: "Voici comment je peux vous aider"
 languages:
   list:
     fr-fr: "Français"

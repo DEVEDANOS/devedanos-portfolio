@@ -1,4 +1,4 @@
-.banner-wrapper {
+.banner__wrapper {
   @media screen and (min-width: theme('screens.xs')) {
     @apply banner-height;
   }
@@ -29,6 +29,10 @@
         background-position: 0 70%;
       }
     }
+
+    &--creations {
+      background-color: $light-gray;
+    }
   }
 }
 
@@ -54,6 +58,24 @@
       width: 100%;
 
       @media screen and (min-width: theme('screens.xs')) {
+        @apply xs-title;
+      }
+
+      @media screen and (min-width: theme('screens.sm')) {
+        @apply sm-title;
+      }
+
+      @media screen and (min-width: theme('screens.md')) {
+        @apply md-title;
+      }
+
+      @media screen and (min-width: theme('screens.lg')) {
+        @apply lg-title;
+      }
+    }
+
+    &--creations {
+      @media screen and (min-width: theme('screens.xs')) {
         @apply xs-title
       }
 
@@ -69,6 +91,5 @@
         @apply lg-title;
       }
     }
-
   }
 }

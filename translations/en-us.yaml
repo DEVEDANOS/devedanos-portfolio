@@ -6,9 +6,11 @@ pages:
     title: 'Devedanos | Home'
     banners:
       usp:
-        title: "I help companies build their own custom web applications with Node.js and Javascript."
+        title: "I help companies build their own custom web applications."
         image:
           description: "Image with view of a sunset, clouds and mountain peaks below"
+      creations:
+        title: "This is how I can help you"
 languages:
   list:
     fr-fr: 'Français'
