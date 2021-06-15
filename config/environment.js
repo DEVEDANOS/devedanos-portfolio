@@ -48,7 +48,7 @@ module.exports = function (environment) {
     ENV.APP.LOG_VIEW_LOOKUPS = true;
 
     // http://ember-service-worker.com/documentation/configuration/#disabling-the-service-worker
-    ENV.APP.SW_DISABLED = true;
+    // ENV.APP.SW_DISABLED = true;
   }
 
   if (environment === 'test') {
