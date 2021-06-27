@@ -4,11 +4,13 @@
       <div class="banner__content banner__content--creations">
         <h2 class="banner__title--creations pb-12 text-center text-black">{{t 'pages.home.banners.creations.title'}}</h2>
         <Carousels::Carousel>
-          <Carousels::Card/>
-          <Carousels::Card/>
-          <Carousels::Card/>
-          <Carousels::Card/>
-          <Carousels::Card/>
+          <Carousels::Card
+            @url="https://www.nobour-eshop.com"
+            @urlName="www.nobour-eshop.com"
+            @description= {{t "pages.home.banners.creations.card.nobour-eshop.description" }}
+            @imgSrc="nobour-eshop.png"
+            @imgAlt= {{t "pages.home.banners.creations.card.nobour-eshop.alt" }}
+          />
         </Carousels::Carousel>
       </div>
     </div>

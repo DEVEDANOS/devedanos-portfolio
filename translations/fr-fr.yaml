@@ -1,5 +1,7 @@
 devedanos: "Devedanos"
 logo: "logo"
+buttons:
+  details: "Plus de détails"
 pages:
   home:
     title: "Devedanos | Accueil"
@@ -11,6 +13,10 @@ pages:
           description: "Image avec vue sur un coucher de soleil, des nuages et sommets de montagnes en contrebas"
       creations:
         title: "Voici comment je peux vous aider"
+        card:
+          nobour-eshop:
+            description: "Une web application e-commerce faite en MERN stack, avec Docker et CI/CD et deployée sur AWS."
+            alt: "capture d'écran de www.nobour-eshop.com"
 languages:
   list:
     fr-fr: "Français"
