@@ -9,4 +9,13 @@
   &__card-content {
     padding: 1rem 2rem;
   }
+
+  &__card-img {
+    position: relative;
+    top: 2rem;
+    width: 260px;
+    height: 135px;
+    object-fit: fill;
+
+  }
 }

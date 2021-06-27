@@ -8,15 +8,25 @@ pages:
     banners:
       usp:
         title: "J'aide les entreprises à créer leurs propres applications web sur mesure."
-#        title: "<h1>J'aide les entreprises à créer</h1><h1>leurs propres sites et applications web sur mesure</h1><h1>avec Node.js et Javascript.</h1>"
         image:
           description: "Image avec vue sur un coucher de soleil, des nuages et sommets de montagnes en contrebas"
       creations:
+        introduction: "Bonjour ! Je suis Sébastien NOBOUR,
+        un développeur français d'applications web spécialisé sur PHP, Node.js et Javascript."
         title: "Voici comment je peux vous aider"
         card:
           nobour-eshop:
             description: "Une web application e-commerce faite en MERN stack, avec Docker et CI/CD et deployée sur AWS."
             alt: "capture d'écran de www.nobour-eshop.com"
+          sym-react-crm:
+            description: "Une application web de Customer Relationship Management faite avec API-Platform et React."
+            alt: "capture d'écran de sym-react-crm"
+          sym-bnb:
+            description: "Une application web développée en Symfony 5 répliquant Air BnB."
+            alt: "capture d'écran de sym-5-bnb"
+          coaching:
+            description: "Coaching pour développeurs web juniors et étudiants. 1 heure gratuite !"
+            alt: "Un développeur web aidé par son coach."
 languages:
   list:
     fr-fr: "Français"

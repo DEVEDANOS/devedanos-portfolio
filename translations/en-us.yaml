@@ -11,11 +11,21 @@ pages:
         image:
           description: "Image with view of a sunset, clouds and mountain peaks below"
       creations:
-        title: "This is how I can help you"
+        introduction: "Hello! I am Sébastien NOBOUR, a French web app developer specialized on PHP, Node.js and JS."
+        title: "And this is how I can help you"
         card:
           nobour-eshop:
             description: "An e-commerce web application using MERN stack Docker, CI/CD and deployed on AWS."
             alt: "nobour-eshop.com screenshot"
+          sym-react-crm:
+            description: "A Customer Relationship Management web application made with API-Platform and React"
+            alt: "Sym-react-crm screenshot"
+          sym-bnb:
+            description: "A web application developed with Symfony 5 replicating Air BnB."
+            alt: "Sym-bnb screenshot"
+          coaching:
+            description: "Coaching for junior and student web developers. 1 hour free !"
+            alt: "A web developer helped by his coach."
 languages:
   list:
     fr-fr: 'Français'
