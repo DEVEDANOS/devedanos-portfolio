@@ -1,7 +1,9 @@
-<div class="input__message w-full">
-  <@labelComponent />
+<div class="input__message w-full mt-4">
+  <label for="message">{{t "forms.contact.message.label"}}</label>
   <div class="input-field__message">
-    <@inputComponent class="input-control__message w-full h-20 bg-gray-50" @type="text" />
+    <Textarea class="input-control__message w-full resize-y rounded-sm p-2 bg-gray-50" name="message"
+      placeholder={{t "forms.contact.message.placeholder"}}
+    />
   </div>
   {{#if @config.validations.errors}}
     <div class="input-error">{{@config.validations.errors}}</div>

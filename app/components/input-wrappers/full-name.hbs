@@ -1,7 +1,10 @@
-<div class="input__full-name w-full">
+<div class="input__full-name w-full md:w-1/2 lg:w-1/3">
   <@labelComponent />
   <div class="input-field__full-name">
-    <@inputComponent class="input-control__full-name w-full bg-gray-50" type="string"/>
+    <@inputComponent
+      class="input-control__full-name w-full rounded-sm p-2 bg-gray-50" type="string"
+      placeholder={{t "forms.contact.full-name.placeholder"}}
+    />
   </div>
   {{#if @config.validations.errors}}
     <div class="input-error">{{@config.validations.errors}}</div>
