@@ -1,0 +1,19 @@
+.contact-form {
+  &__submit {
+    @media screen and (min-width: theme('screens.xs')) {
+      @apply xs-title;
+    }
+
+    @media screen and (min-width: theme('screens.sm')) {
+      @apply sm-title;
+    }
+
+    @media screen and (min-width: theme('screens.md')) {
+      @apply md-title;
+    }
+
+    @media screen and (min-width: theme('screens.lg')) {
+      @apply lg-title;
+    }
+  }
+}
