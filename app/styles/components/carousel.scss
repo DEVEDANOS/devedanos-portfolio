@@ -3,6 +3,25 @@
   &__card {
     &--creations {
       width: 20.4rem;
+      position: relative;
+    }
+  }
+
+  &__card:first-child {
+    @media screen and (min-width: theme('screens.xs')) {
+      right: 1rem;
+    }
+
+    @media screen and (min-width: theme('screens.sm')) {
+      right: 1rem;
+    }
+
+    @media screen and (min-width: theme('screens.md')) {
+      right: 1rem;
+    }
+
+    @media screen and (min-width: theme('screens.lg')) {
+      right: 1rem;
     }
   }
 
