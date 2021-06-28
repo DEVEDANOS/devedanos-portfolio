@@ -30,7 +30,17 @@ pages:
         title: "Request a quote!"
 forms:
   contact:
-      submit: "REQUEST A QUOTE NOW!"
+      full-name:
+        label: "Full name"
+        placeholder: "ex: Sébastien NOBOUR - Devedanos"
+      email:
+        label: "Email address"
+        placeholder: "ex: contact@devedanos.com"
+      message:
+        label: "Message"
+        placeholder: "Write your message here"
+      submit:
+        title: "REQUEST A QUOTE NOW!"
 languages:
   list:
     fr-fr: 'Français'

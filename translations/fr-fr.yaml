@@ -31,7 +31,17 @@ pages:
         title: "Demander un devis !"
 forms:
   contact:
-    submit: "DEMANDER UN DEVIS MAINTENANT !"
+    full-name:
+      label: "Nom complet"
+      placeholder: "ex: Sébastien NOBOUR - Devedanos"
+    email:
+      label: "Adresse email"
+      placeholder: "ex: contact@devedanos.com"
+    message:
+      label: "Message"
+      placeholder: "Écrivez votre message ici"
+    submit:
+      title: "DEMANDER UN DEVIS MAINTENANT !"
 languages:
   list:
     fr-fr: "Français"
