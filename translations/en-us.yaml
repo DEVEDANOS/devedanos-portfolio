@@ -21,13 +21,16 @@ pages:
             description: "A Customer Relationship Management web application made with API-Platform and React"
             alt: "Sym-react-crm screenshot"
           sym-bnb:
-            description: "A web application developed with Symfony 5 replicating Air BnB."
+            description: "A web application developed with Symfony 5 replicating AirBnB."
             alt: "Sym-bnb screenshot"
           coaching:
             description: "Coaching for junior and student web developer. 1 hour free !"
             alt: "A web developer helped by his coach."
       cta:
-        title: "Request a quote now!"
+        title: "Request a quote!"
+forms:
+  contact:
+      submit: "REQUEST A QUOTE NOW!"
 languages:
   list:
     fr-fr: 'Français'
