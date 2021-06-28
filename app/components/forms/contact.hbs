@@ -1,16 +1,10 @@
 <FormBuilder @for={{this}} @action={{this.submit}} as |f|>
-  <div>
-    <f.input @attr="full-name" @type="string" @wrapper="full-name"/>
+  <div class="md:flex">
+    <f.input @attr="full-name" @label={{t "forms.contact.full-name.label"}} @type="string" @wrapper="full-name"/>
+    <f.input @attr="email" @label={{t "forms.contact.email.label"}} @type="email" @wrapper="email"/>
   </div>
-  <div class="mt-4">
-    <f.input @attr="email" @type="email" @wrapper="email"/>
-  </div>
-
-  <div class="mt-4">
-    <f.input @attr="message" @type="text" @wrapper="message"/>
-  </div>
-
-  <div class="mt-8">
-    <f.submit class="contact-form__submit w-full px-4 py-8 font-bold bg-pale-orange text-white">{{t "forms.contact.submit"}}</f.submit>
-  </div>
+  <f.input @attr="message" type="text" @wrapper="message"/>
+  <f.submit class="contact-form__submit w-full mt-8 px-4 py-8 rounded-md uppercase text-lg font-bold">
+    {{t "forms.contact.submit.title"}}
+  </f.submit>
 </FormBuilder>
