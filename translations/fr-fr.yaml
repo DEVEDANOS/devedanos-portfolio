@@ -25,8 +25,10 @@ pages:
             description: "Une application web développée en Symfony 5 répliquant Air BnB."
             alt: "capture d'écran de sym-5-bnb"
           coaching:
-            description: "Coaching pour développeurs web juniors et étudiants. 1 heure gratuite !"
+            description: "Coaching pour développeurs web junior et étudiant.</br> 1 heure gratuite !"
             alt: "Un développeur web aidé par son coach."
+      cta:
+        title: "Demander un devis maintenant !"
 languages:
   list:
     fr-fr: "Français"
