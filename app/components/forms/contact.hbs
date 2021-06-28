@@ -1,1 +1,16 @@
-{{yield}}
+<FormBuilder @for={{this}} @action={{this.submit}} as |f|>
+  <div>
+    <f.input @attr="full-name" @type="string" @wrapper="full-name"/>
+  </div>
+  <div class="mt-4">
+    <f.input @attr="email" @type="email" @wrapper="email"/>
+  </div>
+
+  <div class="mt-4">
+    <f.input @attr="message" @type="text" @wrapper="message"/>
+  </div>
+
+  <div class="mt-8">
+    <f.submit class="contact-form__submit w-full px-4 py-8 font-bold bg-pale-orange text-white">{{t "forms.contact.submit"}}</f.submit>
+  </div>
+</FormBuilder>

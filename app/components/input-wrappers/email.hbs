@@ -1,0 +1,9 @@
+<div class="input__email w-full">
+  <@labelComponent />
+  <div class="input-field__email">
+    <@inputComponent class="input-control__email w-full bg-gray-50" type="email" />
+  </div>
+  {{#if @config.validations.errors}}
+    <div class="input-error">{{@config.validations.errors}}</div>
+  {{/if}}
+</div>

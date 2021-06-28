@@ -1,0 +1,9 @@
+<div class="input__full-name w-full">
+  <@labelComponent />
+  <div class="input-field__full-name">
+    <@inputComponent class="input-control__full-name w-full bg-gray-50" type="string"/>
+  </div>
+  {{#if @config.validations.errors}}
+    <div class="input-error">{{@config.validations.errors}}</div>
+  {{/if}}
+</div>

@@ -1,0 +1,9 @@
+<div class="input__message w-full">
+  <@labelComponent />
+  <div class="input-field__message">
+    <@inputComponent class="input-control__message w-full h-20 bg-gray-50" @type="text" />
+  </div>
+  {{#if @config.validations.errors}}
+    <div class="input-error">{{@config.validations.errors}}</div>
+  {{/if}}
+</div>
