@@ -11,13 +11,7 @@
   }
 
   &__contact-button {
-    @apply bg-pale-orange;
-    @apply text-white;
-
-    &:focus {
-      @apply bg-light-gray;
-      @apply text-pale-orange;
-    }
+    @apply button-cta;
   }
 }
 

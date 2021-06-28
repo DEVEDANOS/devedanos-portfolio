@@ -1,5 +1,8 @@
 .contact-form {
+
   &__submit {
+    @apply button-cta;
+
     @media screen and (min-width: theme('screens.xs')) {
       @apply xs-title;
     }
