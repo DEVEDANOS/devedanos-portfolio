@@ -65,3 +65,19 @@ navbar:
         alt: '{language} language is currently active.'
     contact:
       text: 'Contact me'
+footer:
+  social-medias:
+    title: "Let's keep in touch"
+    links:
+      twitter:
+        alt: "Twitter logo"
+      linked-in:
+        alt: "Linked-in logo"
+      instagram:
+        alt: "Instagram logo"
+      facebook:
+        alt: "Facebook logo"
+  quick-links:
+    title: "Quick links"
+  contacts:
+    title: "Contacts"

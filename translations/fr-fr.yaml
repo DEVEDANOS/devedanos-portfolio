@@ -66,3 +66,20 @@ navbar:
         alt: "{language} est la langue actuellement active."
     contact:
       text: "Me contacter"
+footer:
+  social-medias:
+    title: "Gardons contact !"
+    links:
+      twitter:
+        alt: "Logo de Twitter"
+      linked-in:
+        alt: "Logo de Linked-in"
+      instagram:
+        alt: "Logo d'Instagram"
+      facebook:
+        alt: "Logo de Facebook"
+  quick-links:
+    title: "Liens rapides"
+  contacts:
+    title: "Coordonées"
+
