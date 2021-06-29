@@ -1,12 +1,24 @@
 .page {
   &--legal-notices {
-    min-height: 90vh;
+    height: fit-content;
+    @apply pt-12;
+    @apply pb-24;
+    @apply px-12;
   }
 }
 
 .legal-notices {
   &__title {
-    @apply text-xl
-    @apply md:text-2xl
+    @apply text-3xl;
+    @apply md:text-6xl;
+    @apply mb-12;
+    @apply md:mb-24;
+  }
+
+  &__paragraph {
+    @apply block;
+    @apply my-2;
+    @apply md:my-4;
+    @apply md:text-lg;
   }
 }

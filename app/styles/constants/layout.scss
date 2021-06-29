@@ -18,6 +18,10 @@ main {
   @apply w-full;
   @apply relative;
   @apply top-16;
+
+  .page {
+    @apply w-full;
+  }
 }
 
 .button {
@@ -63,9 +67,4 @@ a {
 
 .banner-min-height {
   min-height: 42rem;
-}
-
-.page {
-  @apply w-full;
-  @apply h-full;
 }
