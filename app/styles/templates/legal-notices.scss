@@ -3,3 +3,10 @@
     min-height: 90vh;
   }
 }
+
+.legal-notices {
+  &__title {
+    @apply text-xl
+    @apply md:text-2xl
+  }
+}
