@@ -114,6 +114,7 @@
       margin: 0;
       width: 100%;
       @apply text-white;
+      @apply lg:px-7;
     }
 
     &--cta {
