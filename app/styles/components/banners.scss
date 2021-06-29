@@ -35,6 +35,7 @@
 
   &--cta {
     @apply banner-min-height;
+    @apply overflow-auto;
   }
 }
 
@@ -76,7 +77,13 @@
     }
 
     &--cta {
-
+      @apply relative;
+      @apply px-12;
+      @apply py-12;
+      @apply w-full;
+      @apply sm:w-8/12;
+      @apply overflow-auto;
+      height: 90%;
       left: 50%;
       transform: translate(-50%, 0%);
     }
@@ -107,6 +114,10 @@
       margin: 0;
       width: 100%;
       @apply text-white;
+    }
+
+    &--cta {
+      @apply mb-12;
     }
   }
 }

@@ -1,10 +1,10 @@
 <FormBuilder @for={{this}} @action={{this.submit}} as |f|>
-  <div class="md:flex">
+  <div class="contact-form">
     <f.input @attr="full-name" @label={{t "forms.contact.full-name.label"}} @type="string" @wrapper="full-name"/>
     <f.input @attr="email" @label={{t "forms.contact.email.label"}} @type="email" @wrapper="email"/>
   </div>
   <f.input @attr="message" type="text" @wrapper="message"/>
-  <f.submit class="contact-form__submit w-full mt-8 px-4 py-8 rounded-md uppercase text-2xl font-bold">
+  <f.submit class="contact-form__submit">
     {{t "forms.contact.submit.title"}}
   </f.submit>
 </FormBuilder>
