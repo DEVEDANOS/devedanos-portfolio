@@ -86,6 +86,9 @@ footer:
     phone:
       title: "+3358501427"
       alt: "Phone icon"
+    email:
+      title: "contact@devedanos.com"
+      alt: "Email icon"
     location:
       title: "12 Avenue des Fauvettes, 78340, LES CLAYES SOUS BOIS, FRANCE"
       alt: "location pin icon"

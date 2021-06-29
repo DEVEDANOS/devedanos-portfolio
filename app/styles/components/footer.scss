@@ -1,0 +1,24 @@
+footer {
+  a {
+    @apply text-white;
+  }
+
+  a:hover {
+    @apply text-pale-orange;
+  }
+}
+
+.social-medias__link:hover {
+  @apply filter-orange;
+}
+
+.contacts {
+
+  &__link {
+    @apply mt-4;
+  }
+
+  &__link:first-child {
+    @apply mt-2;
+  }
+}
