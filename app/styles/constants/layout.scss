@@ -58,3 +58,8 @@ a {
 .banner-min-height {
   min-height: 42rem;
 }
+
+.page {
+  @apply w-full;
+  @apply h-full;
+}
