@@ -10,8 +10,15 @@ html {
 }
 
 body {
-  height: 100%;
-  width: 100%;
+  @apply h-full;
+  @apply w-full;
+}
+
+main {
+  @apply h-full;
+  @apply w-full;
+  @apply relative;
+  @apply top-16;
 }
 
 .button {
