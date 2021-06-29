@@ -1,4 +1,4 @@
-<div class="carousel__card carousel__card--creations h-80 flex-none rounded-lg bg-white shadow-lg">
+<div class="carousel__card carousel__card--creations">
   <div class="carousel__card-content">
     <h1 class="mb-1"><a href="{{ @url }}" class="text-base font-medium">{{ @urlName }}</a></h1>
     <p class="mb-1 h-12">{{ @description }}</p>
@@ -6,7 +6,7 @@
       {{t "buttons.details"}}
     </LinkTo>
     <a href="{{ @url }}">
-      <img src="/assets/images/creations/{{@imgSrc}}" alt="{{@imgAlt}}" class="carousel__card-img border border-black">
+      <img src="/assets/images/creations/{{@imgSrc}}" alt="{{@imgAlt}}" class="carousel__card-img">
     </a>
   </div>
 </div>

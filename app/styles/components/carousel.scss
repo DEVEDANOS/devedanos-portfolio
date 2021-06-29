@@ -1,6 +1,26 @@
 .carousel {
+  @apply relative;
+  @apply flex;
+  @apply flex-row;
+  @apply flex-nowrap;
+  @apply space-x-32;
+  @apply xs:h-4/5;
+  @apply w-full;
+  @apply px-6;
+  @apply sm:px-14;
+  @apply md:px-40;
+  @apply lg:px-60;
+  @apply overflow-y-scroll;
+  height: 77%;
 
   &__card {
+    @apply h-80;
+    @apply flex-none;
+    @apply mt-1;
+    @apply rounded-lg;
+    @apply bg-white;
+    @apply shadow-lg;
+
     &--creations {
       width: 20.4rem;
       position: relative;
@@ -30,6 +50,8 @@
   }
 
   &__card-img {
+    @apply border;
+    @apply border-black;
     position: relative;
     top: 2rem;
     width: 260px;
