@@ -29,7 +29,7 @@ pages:
             description: "Coaching pour développeurs web junior et étudiant.</br> 1 heure gratuite !"
             alt: "Un développeur web aidé par son coach."
       cta:
-        title: "Demander un devis !"
+        title: "Demandez un devis !"
 forms:
   contact:
     full-name:
