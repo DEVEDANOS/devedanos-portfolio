@@ -30,6 +30,19 @@ pages:
             alt: "Un développeur web aidé par son coach."
       cta:
         title: "Demandez un devis !"
+  legal-notices:
+    title: "MENTIONS LÉGALES"
+    paragraph-1: "Identification de l'éditeur et de l'hébergeur du site"
+    paragraph-2: "Le site www.devedanos.com est édité par SEBASTIEN THIBAUT NOBOUR Micro-entreprise, entreprise
+      immatriculée au RCS de VERSAILLES sous le numéro 847696416, dont le siège social est sis au
+      12 Avenue des Fauvettes, 78340 LES CLAYES SOUS BOIS."
+    paragraph-3: "N° de TVA intracommunautaire : FR 05 847 696 416."
+    paragraph-4: "Directeur de la publication : Sébastien NOBOUR, Dirigeant de SEBASTIEN THIBAUT NOBOUR
+    Micro-entreprise, joignable au +33658501427 ou à l'adresse contact@devedanos.com."
+    paragraph-5: "Le site est hébergé par Amazon Web Services, Inc., 410 Terry Ave North, Seattle , WA 98109-5210 , US.
+      Les informations concernant la collecte et le traitement des données personnelles (politique et déclaration)
+      sont fournies dans la charte de données personnelles du site."
+    paragraph-6: "Tous droits réservés - 29 juin 2021"
 forms:
   contact:
     full-name:
@@ -56,7 +69,7 @@ images:
 links:
   home: "Accueil"
   home-logo: "Logo de Devedanos. Cliquez dessus pour retourner en page d'accueil"
-  legal: "Mentions légales"
+  legal-notices: "Mentions légales"
 navbar:
   nav-main:
     button-mobile-menu:

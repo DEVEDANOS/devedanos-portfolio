@@ -29,6 +29,19 @@ pages:
             alt: "A web developer helped by his coach."
       cta:
         title: "Request a quote!"
+  legal-notices:
+    title: "LEGAL NOTICES"
+    paragraph-1: "Identification of the publisher and host of the site"
+    paragraph-2: "The website www.devedanos.com is edited by SEBASTIEN THIBAUT NOBOUR Micro-entreprise,
+      a company registered at the RCS of VERSAILLES under the number 847696416,
+      whose head office is located at 12 Avenue des Fauvettes, 78340 LES CLAYES SOUS BOIS."
+    paragraph-3: "International VAT number: FR 05 847 696 416."
+    paragraph-4: "Director of the publication : Sébastien NOBOUR, Manager of SEBASTIEN THIBAUT NOBOUR Micro-entreprise,
+    reachable at +33658501427 or at contact@devedanos.com."
+    paragraph-5: "The site is hosted by Amazon Web Services, Inc, 410 Terry Ave North, Seattle , WA 98109-5210 , US.
+      Information regarding the collection and processing of personal data (policy and statement) is provided
+      in the site's personal data policy."
+    paragraph-6: "All rights reserved - June 29, 2021"
 forms:
   contact:
       full-name:
@@ -55,7 +68,7 @@ images:
 links:
   home: 'Home'
   home-logo: 'Devedanos logo. Click on it to return to home page'
-  legal: "Legal notices"
+  legal-notices: "Legal notices"
 navbar:
   nav-main:
     button-mobile-menu:
