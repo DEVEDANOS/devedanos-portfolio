@@ -17,16 +17,16 @@ pages:
         title: "Voici comment je peux vous aider"
         card:
           nobour-eshop:
-            description: "Une web application e-commerce faite en MERN stack, avec Docker et CI/CD et deployée sur AWS."
+            description: "SPA et API REST e-commerce en MERN stack et Docker, déployée sur AWS via CI/CD."
             alt: "capture d'écran de www.nobour-eshop.com"
           sym-react-crm:
-            description: "Une application web de Customer Relationship Management faite avec API-Platform et React."
+            description: "SPA et API REST pour un CRM en API-Platform et React."
             alt: "capture d'écran de sym-react-crm"
           sym-bnb:
-            description: "Une application web développée en Symfony 5 répliquant AirBnB."
+            description: "Application web MVC développée en Symfony 5 répliquant AirBnB."
             alt: "capture d'écran de sym-5-bnb"
           coaching:
-            description: "Coaching pour développeurs web junior et étudiant.</br> 1 heure gratuite !"
+            description: "Coaching pour développeur web junior et étudiant.</br> 1 heure gratuite !"
             alt: "Un développeur web aidé par son coach."
       cta:
         title: "Demandez un devis !"
