@@ -1,5 +1,6 @@
 devedanos: 'Devedanos'
 logo: 'logo'
+devedanos-logo: "Devedanos logo; Devedanos: Web development"
 buttons:
   details: "More details"
 pages:
@@ -11,7 +12,7 @@ pages:
         image:
           description: "Image with view of a sunset, clouds and mountain peaks below"
       creations:
-        introduction: "Hello! I am Sébastien NOBOUR, freelance French web app developer specialized on PHP, Node.js and JS."
+        introduction: "Hello! I am Sébastien NOBOUR, freelance French web app developer, specialized on PHP, Node.js and JS."
         title: "And this is how I can help you"
         card:
           nobour-eshop:
@@ -54,6 +55,7 @@ images:
 links:
   home: 'Home'
   home-logo: 'Devedanos logo. Click on it to return to home page'
+  legal: "Legal notices"
 navbar:
   nav-main:
     button-mobile-menu:
@@ -81,3 +83,18 @@ footer:
     title: "Quick links"
   contacts:
     title: "Contacts"
+    phone:
+      title: "+3358501427"
+      alt: "Phone icon"
+    location:
+      title: "12 Avenue des Fauvettes, 78340, LES CLAYES SOUS BOIS, FRANCE"
+      alt: "location pin icon"
+    vat:
+      siret: "French SIRET: 847696416 00019"
+      international: "International VAT N°: FR 05 847696416"
+      alt: "Handshake icon"
+  credits:
+    developed: "Developed with"
+    empress: "Empress"
+    by: "by Sébastien NOBOUR © Devedanos - 2021"
+    source-code: "Website source code"
