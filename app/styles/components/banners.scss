@@ -58,6 +58,10 @@
       @apply rounded;
       @apply bg-black--smock;
     }
+
+    &--creations {
+      @apply py-12;
+    }
   }
 
   &__content {
@@ -65,6 +69,10 @@
 
     &--usp {
       @apply px-3;
+    }
+
+    &--creations {
+      @apply px-4;
     }
 
     &--cta {
