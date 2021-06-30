@@ -1,10 +1,8 @@
-<FormBuilder @for={{this}} @action={{this.submit}} as |f|>
-  <div class="contact-form">
+<FormBuilder @for={{this}} {{on "submit" this.submit}} as |f|>
+  <div class="contact-form__first-row">
     <f.input @attr="full-name" @label={{t "forms.contact.full-name.label"}} @type="string" @wrapper="full-name"/>
-    <f.input @attr="email" @label={{t "forms.contact.email.label"}} @type="email" @wrapper="email"/>
+    <f.input @attr="email" @label={{t "forms.contact.email.label"}} @type="email" @wrapper="email" />
   </div>
   <f.input @attr="message" type="text" @wrapper="message"/>
-  <f.submit class="contact-form__submit">
-    {{t "forms.contact.submit.title"}}
-  </f.submit>
+  <f.submit class="contact-form__submit">{{t "forms.contact.submit.title"}}</f.submit>
 </FormBuilder>
