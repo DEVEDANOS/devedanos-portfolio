@@ -80,37 +80,37 @@ navbar:
         alt: '{language} language is currently active.'
     contact:
       text: 'Request a quote'
-footer:
-  social-medias:
-    title: "Let's keep in touch"
-    links:
-      twitter:
-        alt: "Twitter logo"
-      linked-in:
-        alt: "Linked-in logo"
-      instagram:
-        alt: "Instagram logo"
-      facebook:
-        alt: "Facebook logo"
-  quick-links:
-    title: "Quick links"
-  contacts:
-    title: "Contacts"
-    phone:
-      title: "+3358501427"
-      alt: "Phone icon"
-    email:
-      title: "contact@devedanos.com"
-      alt: "Email icon"
-    location:
-      title: "12 Avenue des Fauvettes, 78340, LES CLAYES SOUS BOIS, FRANCE"
-      alt: "location pin icon"
-    vat:
-      siret: "French SIRET: 847696416 00019"
-      international: "International VAT N°: FR 05 847696416"
-      alt: "Handshake icon"
-  credits:
-    developed: "Developed with"
-    empress: "Empress"
-    by: "by Sébastien NOBOUR © Devedanos - 2021"
-    source-code: "Website source code"
+
+social-medias:
+  title: "Let's keep in touch"
+  links:
+    twitter:
+      alt: "Twitter logo"
+    linked-in:
+      alt: "Linked-in logo"
+    instagram:
+      alt: "Instagram logo"
+    facebook:
+      alt: "Facebook logo"
+quick-links:
+  title: "Quick links"
+contacts:
+  title: "Contacts"
+  phone:
+    title: "+3358501427"
+    alt: "Phone icon"
+  email:
+    title: "sebastien@devedanos.com"
+    alt: "Email icon"
+  location:
+    title: "12 Avenue des Fauvettes, 78340, LES CLAYES SOUS BOIS, FRANCE"
+    alt: "location pin icon"
+  vat:
+    siret: "French SIRET: 847696416 00019"
+    international: "International VAT N°: FR 05 847696416"
+    alt: "Handshake icon"
+credits:
+  developed: "Developed with"
+  empress: "Empress"
+  by: "by Sébastien NOBOUR © Devedanos - 2021"
+  source-code: "Website source code"

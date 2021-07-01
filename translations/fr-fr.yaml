@@ -82,37 +82,37 @@ navbar:
     contact:
       text: "Demander un devis"
 footer:
-  social-medias:
-    title: "Gardons contact !"
-    links:
-      twitter:
-        alt: "Logo de Twitter"
-      linked-in:
-        alt: "Logo de Linked-in"
-      instagram:
-        alt: "Logo d'Instagram"
-      facebook:
-        alt: "Logo de Facebook"
-  quick-links:
-    title: "Liens rapides"
-  contacts:
-    title: "Coordonnées"
-    phone:
-      title: "+3358501427"
-      alt: "Icône de téléphone"
-    email:
-      title: "contact@devedanos.com"
-      alt: "Icône d'email"
-    location:
-      title: "12 Avenue des Fauvettes, 78340, LES CLAYES SOUS BOIS, FRANCE"
-      alt: "Îcone d'un pointeur de localisation"
-    vat:
-      siret: "SIRET français: 847696416 00019"
-      international: "N° de TVA Intracommunautaire: FR 05 847696416"
-      alt: "Icône d'une poignée de main"
-  credits:
-    developed: "Developpé avec"
-    empress: "Empress"
-    by: "par Sébastien NOBOUR © Devedanos - 2021"
-    source-code: "Code source du site"
+social-medias:
+  title: "Gardons contact !"
+  links:
+    twitter:
+      alt: "Logo de Twitter"
+    linked-in:
+      alt: "Logo de Linked-in"
+    instagram:
+      alt: "Logo d'Instagram"
+    facebook:
+      alt: "Logo de Facebook"
+quick-links:
+  title: "Liens rapides"
+contacts:
+  title: "Coordonnées"
+  phone:
+    title: "+3358501427"
+    alt: "Icône de téléphone"
+  email:
+    title: "sebastien@devedanos.com"
+    alt: "Icône d'email"
+  location:
+    title: "12 Avenue des Fauvettes, 78340, LES CLAYES SOUS BOIS, FRANCE"
+    alt: "Îcone d'un pointeur de localisation"
+  vat:
+    siret: "SIRET français: 847696416 00019"
+    international: "N° de TVA Intracommunautaire: FR 05 847696416"
+    alt: "Icône d'une poignée de main"
+credits:
+  developed: "Developpé avec"
+  empress: "Empress"
+  by: "par Sébastien NOBOUR © Devedanos - 2021"
+  source-code: "Code source du site"
 
