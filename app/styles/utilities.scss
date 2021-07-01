@@ -1,10 +1,15 @@
-.button-cta {
-  @apply bg-pale-orange;
-  @apply text-white;
+.button {
+  @apply block;
+  @apply text-center;
 
-  &:focus {
-    @apply bg-light-gray;
-    @apply text-pale-orange;
+  &--cta {
+    @apply bg-pale-orange;
+    @apply text-white;
+
+    &:focus {
+      @apply bg-light-gray;
+      @apply text-pale-orange;
+    }
   }
 }
 

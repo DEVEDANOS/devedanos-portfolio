@@ -1,6 +1,6 @@
 .contact-form {
 
-  &__first-row{
+  &__first-row {
     @apply md:flex;
     @apply h-full;
     @apply overflow-auto;
@@ -38,7 +38,8 @@
     @apply text-2xl;
     @apply font-bold;
 
-    @apply button-cta;
+    @apply button;
+    @apply button--cta;
 
     @media screen and (min-width: theme('screens.xs')) {
       @apply xs-title;
@@ -68,9 +69,3 @@
     @apply resize-y;
   }
 }
-
-/*
- .input-error {
-
-}
-*/

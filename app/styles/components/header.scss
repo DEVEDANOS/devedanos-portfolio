@@ -20,7 +20,8 @@
 
   &__contact-button {
     @apply inline-flex items-center justify-center px-3 py-2 border border-transparent text-base font-medium rounded-md;
-    @apply button-cta;
+    @apply button;
+    @apply button--cta;
   }
 }
 
