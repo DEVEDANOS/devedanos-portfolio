@@ -79,7 +79,7 @@ navbar:
       button-image:
         alt: '{language} language is currently active.'
     contact:
-      text: 'Contact me'
+      text: 'Request a quote'
 footer:
   social-medias:
     title: "Let's keep in touch"

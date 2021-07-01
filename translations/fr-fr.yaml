@@ -80,7 +80,7 @@ navbar:
       button-image:
         alt: "{language} est la langue actuellement active."
     contact:
-      text: "Me contacter"
+      text: "Demander un devis"
 footer:
   social-medias:
     title: "Gardons contact !"
