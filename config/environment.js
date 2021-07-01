@@ -24,20 +24,20 @@ module.exports = function (environment) {
       // when it is created
     },
 
-    // blog: {
-    //   title: 'Devedanos Web development',
-    //   description: 'I am Sebastien NOBOUR. I help companies to build their own custom web applications.',
-    //   coverImage: '/images/blog-cover.jpg',
-    //
-    //   navigation: [{
-    //     label: 'Home',
-    //     route: 'index',
-    //   }, {
-    //     label: 'Built by Chris Manson',
-    //     route: 'page',
-    //     id: 'chris-manson',
-    //   }],
-    // },
+    blog: {
+      title: 'Devedanos Web development',
+      description: 'I am Sebastien NOBOUR. I help companies to build their own custom web applications with Node.js, PHP, Javascript.',
+      coverImage: '/images/blog-cover.jpg',
+
+      navigation: [{
+        label: 'Home',
+        route: 'index',
+      }, {
+        label: 'Built by Sébastien NOBOUR',
+        route: 'page',
+        id: 'sebastien-nobour',
+      }],
+    },
   };
 
   if (environment === 'development') {
