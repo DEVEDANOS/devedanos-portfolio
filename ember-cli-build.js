@@ -38,6 +38,9 @@ module.exports = function (defaults) {
         ],
       },
     },
+    // 'ember-service-worker': {
+    //   enabled: false,
+    // },
     /*
     'esw-cache-fallback': {
       patterns: [
