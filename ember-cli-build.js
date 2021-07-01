@@ -38,6 +38,15 @@ module.exports = function (defaults) {
         ],
       },
     },
+    outputPaths: {
+      app: {
+        html: 'index.html',
+        css: {
+          app: '/assets/devedanos-portfolio.css',
+          // print: '/assets/print.css',
+        },
+      },
+    },
     // 'ember-service-worker': {
     //   enabled: false,
     // },
