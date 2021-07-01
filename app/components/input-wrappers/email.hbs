@@ -1,0 +1,11 @@
+<div class="contact-form__email">
+  <@labelComponent />
+  <div class="input-field__email">
+    <@inputComponent class="input-control input-control__email" type="email"
+      placeholder={{t "forms.contact.email.placeholder"}}
+    />
+  </div>
+  {{#if @config.validations.errors}}
+    <div class="input-error">{{@config.validations.errors}}</div>
+  {{/if}}
+</div>

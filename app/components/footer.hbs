@@ -1,0 +1,89 @@
+<footer>
+  <div class="content-wrapper">
+    <div class="content__social-medias md:w-1/2 lg:1/3;">
+      <h3 class="content-title">{{t "footer.social-medias.title"}}</h3>
+
+        <ul class="links-list">
+          <li class="link_social-medias">
+            <a href="https://www.twitter.com/daproclaima">
+              <img src="/assets/icons/twitter.svg"
+                   alt="{{t "footer.social-media.links.twitter.alt"}}" class="svg"
+              >
+            </a>
+          </li>
+          <li class="link_social-medias">
+            <a href="https://www.linkedin.com/in/snitpro/">
+              <img src="/assets/icons/linked-in.svg"
+                   alt="{{t "footer.social-media.links.linked-in.alt"}}" class="svg"
+              >
+            </a>
+          </li>
+          <li class="link__social-medias">
+            <a href="https://www.instagram.com/daproclaima">
+              <img src="/assets/icons/instagram.svg"
+                   alt="{{t "footer.social-media.links.instagram.alt"}}" class="svg"
+              >
+            </a>
+          </li>
+          <li class="link_social-medias">
+            <a href="https://www.facebook.com/SebastienNobour">
+              <img src="/assets/icons/facebook.svg"
+                   alt="{{t "footer.social-media.links.facebook.alt"}}" class="svg"
+              >
+            </a>
+          </li>
+        </ul>
+    </div>
+    <div class="content__quick-links md:w-1/2 lg:1/3">
+      <h3 class="content-title">{{t "footer.quick-links.title"}}</h3>
+      <ul class="links-list">
+        <li class="link__quick-links">
+          <LinkTo @route="index" class="text-white" aria-current="page">{{t "links.home"}}</LinkTo>
+        </li>
+        <li class="link__quick-links">
+          <LinkTo @route="legal-notices" class="text-white"  aria-current="page">{{t "links.legal-notices"}}</LinkTo>
+        </li>
+      </ul>
+    </div>
+    <div class="content__contacts lg:1/3">
+      <h3 class="content-title">{{t "footer.contacts.title"}}</h3>
+        <ul class="links-list__contacts">
+          <li class="link__contacts">
+            <img src="/assets/icons/phone.svg" alt="{{t "footer.contacts.phone.alt"}}" class="svg">
+            <a href="tel:+3358501427">{{t "footer.contacts.phone.title"}}</a>
+          </li>
+          <li class="link__contacts">
+            <img src="/assets/icons/email.svg" alt="{{t "footer.contacts.phone.alt"}}" class="svg">
+            <a href="mailto: {{t "footer.contacts.email.title"}}">{{t "footer.contacts.email.title"}}</a>
+          </li>
+          <li class="link__contacts">
+            <img src="/assets/icons/location-pin.svg" alt="{{t "footer.contacts.location.alt"}}" class="svg">
+            <a href="https://goo.gl/maps/1tHtvyCfWf3f1STF8">{{t "footer.contacts.location.title"}}</a>
+          </li>
+          <li class="link__contacts">
+            <img src="/assets/icons/handshake.svg" alt="{{t "footer.contacts.vat.alt"}}" class="svg">
+            <ul>
+              <li>{{t "footer.contacts.vat.siret"}}</li>
+              <li>{{t "footer.contacts.vat.international"}}</li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+  </div>
+  <div class="credits">
+    <img class="w-4/12 sm:w-1/12 mx-auto mb-2" src="/assets/images/devedanos/web/svg/white-logo-no-background.svg"
+         alt="{{t "devedanos-logo"}}">
+    <p class="mx-auto">
+      {{t "footer.credits.developed"}}
+      <a href="https://jamstack.org/generators/empress-blog/">
+        {{t "footer.credits.empress"}}
+      </a>
+      {{t "footer.credits.by"}}
+    </p>
+    <p class="mx-auto mt-2">
+      <a href="https://github.com/SEBASTIEN-THIBAUT-NOBOUR/devedanos-portfolio">
+        {{t "footer.credits.source-code"}}
+      </a>
+    </p>
+  </div>
+</footer>

@@ -1,0 +1,153 @@
+.banner-background {
+  width: 100%;
+
+  @media screen and (min-width: theme('screens.xs')) {
+    @apply banner-height;
+  }
+
+  @media screen and (min-width: theme('screens.sm')) {
+    @apply banner-height;
+  }
+
+  &--usp {
+    background-image: url('/assets/images/backgrounds/bg-banner-wrapper__usp.jpg');
+    background-size: cover;
+    width: 100%;
+    z-index: 0;
+    @apply banner-height;
+
+    @media screen and (min-width: theme('screens.xs')) {
+      background-position: 80% 0;
+    }
+
+    @media screen and (min-width: theme('screens.sm')) {
+      background-position: 55% 0;
+    }
+
+    @media screen and (min-width: theme('screens.lg')) {
+      background-position: 0 70%;
+    }
+  }
+
+  &--creations {
+    background-color: $light-gray;
+  }
+
+  &--cta {
+    @apply banner-min-height;
+    @apply overflow-auto;
+  }
+}
+
+.banner {
+  height: 100%;
+
+  &--usp {
+    @apply py-48;
+  }
+
+  &__container {
+    height: 100%;
+
+    &--usp {
+      @apply w-2/3;
+      @apply lg:w-2/5;
+      @apply mx-auto;
+      @apply align-middle;
+      @apply py-2;
+      @apply px-3;
+      @apply rounded;
+      @apply bg-black--smock;
+    }
+
+    &--creations {
+      @apply py-12;
+    }
+  }
+
+  &__content {
+    height: 100%;
+
+    &--usp {
+      @apply px-3;
+    }
+
+    &--creations {
+      @apply px-4;
+    }
+
+    &--cta {
+      @apply relative;
+      @apply px-12;
+      @apply py-12;
+      @apply w-full;
+      @apply sm:w-8/12;
+      @apply overflow-auto;
+      height: 90%;
+      left: 50%;
+      transform: translate(-50%, 0%);
+
+      .button-contact {
+        @apply relative;
+        @apply top-52;
+        @apply px-4;
+        @apply py-8;
+        @apply rounded-md;
+        @apply uppercase;
+        @apply font-bold;
+
+        @apply button;
+        @apply button--cta;
+
+        @media screen and (min-width: theme('screens.xs')) {
+          @apply xs-title;
+        }
+
+        @media screen and (min-width: theme('screens.sm')) {
+          @apply sm-title;
+        }
+
+        @media screen and (min-width: theme('screens.md')) {
+          @apply md-title;
+        }
+
+        @media screen and (min-width: theme('screens.lg')) {
+          @apply lg-title;
+        }
+      }
+    }
+  }
+
+  &__title {
+    @media screen and (min-width: theme('screens.xs')) {
+      @apply xs-title;
+    }
+
+    @media screen and (min-width: theme('screens.sm')) {
+      @apply sm-title;
+    }
+
+    @media screen and (min-width: theme('screens.md')) {
+      @apply md-title;
+    }
+
+    @media screen and (min-width: theme('screens.lg')) {
+      @apply lg-title;
+    }
+
+    &--usp {
+      align-items: center;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      margin: 0;
+      width: 100%;
+      @apply text-white;
+      @apply lg:px-7;
+    }
+
+    &--cta {
+      @apply mb-12;
+    }
+  }
+}

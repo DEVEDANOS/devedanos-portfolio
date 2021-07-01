@@ -1,0 +1,71 @@
+.contact-form {
+
+  &__first-row {
+    @apply md:flex;
+    @apply h-full;
+    @apply overflow-auto;
+  }
+
+  &__email {
+    @apply w-full;
+    @apply md:w-1/2;
+    @apply lg:w-1/3;
+    @apply mt-4;
+    @apply md:mt-0;
+    @apply md:ml-4;
+  }
+
+  &__full-name {
+    @apply w-full;
+    @apply md:w-1/2;
+    @apply lg:w-1/3;
+
+  }
+
+  &__message {
+    @apply w-full;
+    @apply overflow-auto;
+    @apply mt-4;
+  }
+
+  &__submit {
+    @apply w-full;
+    @apply mt-8;
+    @apply px-4;
+    @apply py-8;
+    @apply rounded-md;
+    @apply uppercase;
+    @apply text-2xl;
+    @apply font-bold;
+
+    @apply button;
+    @apply button--cta;
+
+    @media screen and (min-width: theme('screens.xs')) {
+      @apply xs-title;
+    }
+
+    @media screen and (min-width: theme('screens.sm')) {
+      @apply sm-title;
+    }
+
+    @media screen and (min-width: theme('screens.md')) {
+      @apply md-title;
+    }
+
+    @media screen and (min-width: theme('screens.lg')) {
+      @apply lg-title;
+    }
+  }
+}
+
+.input-control {
+  @apply w-full;
+  @apply rounded-sm;
+  @apply p-2;
+  @apply bg-gray-50;
+
+  &__message {
+    @apply resize-y;
+  }
+}

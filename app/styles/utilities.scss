@@ -1,0 +1,18 @@
+.button {
+  @apply block;
+  @apply text-center;
+
+  &--cta {
+    @apply bg-pale-orange;
+    @apply text-white;
+
+    &:focus {
+      @apply bg-light-gray;
+      @apply text-pale-orange;
+    }
+  }
+}
+
+.filter-white {
+  filter: brightness(0) invert(1);
+}

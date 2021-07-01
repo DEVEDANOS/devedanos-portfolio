@@ -1,0 +1,118 @@
+devedanos: "Devedanos"
+logo: "logo"
+devedanos-logo: "Logo de Devedanos: Devedanos: Développement web"
+buttons:
+  details: "Plus de détails"
+pages:
+  home:
+    title: "Devedanos | Accueil"
+    banners:
+      usp:
+        title: "J'aide les entreprises à créer leurs propres applications web sur mesure."
+        image:
+          description: "Image avec vue sur un coucher de soleil, des nuages et sommets de montagnes en contrebas"
+      creations:
+        introduction: "Bonjour ! Je suis Sébastien NOBOUR,
+        développeur freelance français d'applications web, spécialisé sur PHP, Node.js et Javascript."
+        title: "Voici comment je peux vous aider"
+        card:
+          nobour-eshop:
+            description: "SPA et API REST e-commerce en MERN stack et Docker, déployée sur AWS via CI/CD."
+            alt: "capture d'écran de www.nobour-eshop.com"
+          sym-react-crm:
+            description: "SPA et API REST pour un CRM en API-Platform et React."
+            alt: "capture d'écran de sym-react-crm"
+          sym-bnb:
+            description: "Application web MVC développée en Symfony 5 répliquant AirBnB."
+            alt: "capture d'écran de sym-5-bnb"
+          coaching:
+            description: "Coaching pour développeur web junior et étudiant.</br> 1 heure gratuite !"
+            alt: "Un développeur web aidé par son coach."
+      cta:
+        title: "Demandez un devis !"
+  legal-notices:
+    title: "MENTIONS LÉGALES"
+    paragraph-1: "Identification de l'éditeur et de l'hébergeur du site"
+    paragraph-2: "Le site www.devedanos.com est édité par SEBASTIEN THIBAUT NOBOUR Micro-entreprise, entreprise
+      immatriculée au RCS de VERSAILLES sous le numéro 847696416, dont le siège social est sis au
+      12 Avenue des Fauvettes, 78340 LES CLAYES SOUS BOIS."
+    paragraph-3: "N° de TVA intracommunautaire : FR 05 847 696 416."
+    paragraph-4: "Directeur de la publication : Sébastien NOBOUR, Dirigeant de SEBASTIEN THIBAUT NOBOUR
+    Micro-entreprise, joignable au +33658501427 ou à l'adresse contact@devedanos.com."
+    paragraph-5: "Le site est hébergé par Amazon Web Services, Inc., 410 Terry Ave North, Seattle , WA 98109-5210 , US.
+      Les informations concernant la collecte et le traitement des données personnelles (politique et déclaration)
+      sont fournies dans la charte de données personnelles du site."
+    paragraph-6: "Tous droits réservés - 29 juin 2021"
+forms:
+  contact:
+    full-name:
+      label: "Nom complet"
+      placeholder: "ex: Sébastien NOBOUR - Devedanos"
+    email:
+      label: "Adresse email"
+      placeholder: "ex: contact@devedanos.com"
+    message:
+      label: "Message"
+      placeholder: "Écrivez votre message ici"
+    submit:
+      title: "DEMANDER UN DEVIS MAINTENANT !"
+languages:
+  list:
+    fr-fr: "Français"
+    en-us: "English"
+images:
+  flags:
+    fr-fr:
+      alt: "Drapeau de France"
+    en-us:
+      alt: "Drapeau des USA"
+links:
+  home: "Accueil"
+  home-logo: "Logo de Devedanos. Cliquez dessus pour retourner en page d'accueil"
+  legal-notices: "Mentions légales"
+navbar:
+  nav-main:
+    button-mobile-menu:
+      description: "Ouvrir le menu principal"
+    language-picker:
+      aria-label: "Français, choisissez votre langue"
+      description: "Choisissez votre langue"
+      button-image:
+        alt: "{language} est la langue actuellement active."
+    contact:
+      text: "Me contacter"
+footer:
+  social-medias:
+    title: "Gardons contact !"
+    links:
+      twitter:
+        alt: "Logo de Twitter"
+      linked-in:
+        alt: "Logo de Linked-in"
+      instagram:
+        alt: "Logo d'Instagram"
+      facebook:
+        alt: "Logo de Facebook"
+  quick-links:
+    title: "Liens rapides"
+  contacts:
+    title: "Coordonnées"
+    phone:
+      title: "+3358501427"
+      alt: "Icône de téléphone"
+    email:
+      title: "contact@devedanos.com"
+      alt: "Icône d'email"
+    location:
+      title: "12 Avenue des Fauvettes, 78340, LES CLAYES SOUS BOIS, FRANCE"
+      alt: "Îcone d'un pointeur de localisation"
+    vat:
+      siret: "SIRET français: 847696416 00019"
+      international: "N° de TVA Intracommunautaire: FR 05 847696416"
+      alt: "Icône d'une poignée de main"
+  credits:
+    developed: "Developpé avec"
+    empress: "Empress"
+    by: "par Sébastien NOBOUR © Devedanos - 2021"
+    source-code: "Code source du site"
+

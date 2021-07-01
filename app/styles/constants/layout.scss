@@ -1,0 +1,70 @@
+html {
+  font-size: 16px;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  @apply h-full;
+  @apply w-full;
+}
+
+main {
+  @apply w-full;
+  @apply relative;
+  @apply top-16;
+
+  .page {
+    @apply w-full;
+  }
+}
+
+.button {
+  min-height: 1em;
+  min-width: 1em;
+}
+
+a {
+  @apply text-orange;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-black {
+  background-color: $black;
+
+  &--smock {
+    background-color: $black-smock;
+  }
+}
+
+.bg-light-gray {
+  background-color: $light-gray;
+}
+
+.bg-pale-orange {
+  background-color: $pale-orange;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+.bg-vibrant-orange {
+  background-color: $vibrant-orange;
+}
+
+.banner-height {
+  height: 36rem;
+}
+
+.banner-min-height {
+  min-height: 42rem;
+}

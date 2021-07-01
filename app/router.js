@@ -1,4 +1,4 @@
-import EmberRouter from '@ember/routing/router';
+import EmberRouter from '@embroider/router';
 import config from 'devedanos-portfolio/config/environment';
 
 export default class Router extends EmberRouter {
@@ -7,4 +7,6 @@ export default class Router extends EmberRouter {
 }
 
 // eslint-disable-next-line array-callback-return
-Router.map(function () {});
+Router.map(function () {
+  this.route('legal-notices');
+});
