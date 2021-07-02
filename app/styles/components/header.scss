@@ -1,48 +1,46 @@
 .navbar {
-  @apply fixed z-10 w-full flex items-center justify-between h-16 mx-auto px-2 sm:px-6 lg:px-8 bg-white shadow-sm;
-
-  &__content {
-    @apply flex-1 flex items-center justify-center sm:items-stretch sm:justify-start;
-  }
+  @apply fixed z-10 w-full flex items-center justify-between h-16 mx-auto px-3 sm:px-6 lg:px-8 bg-white shadow-sm;
 
   &__left-content {
-    @apply flex flex-shrink items-center;
+    @apply flex flex-row justify-between items-center;
   }
 
   &__language-picker {
-    @apply absolute left-10 sm:left-16 flex items-center pr-2 sm:inset-auto sm:ml-6 md:ml-12 sm:pr-0;
+    @apply sm:left-20 pr-2 sm:inset-auto md:ml-12 sm:pr-0;
   }
 
   &__right-content {
-    @apply absolute sm:static right-0 sm:ml-6 mr-2;
-    @apply rounded-md shadow;
+    @apply ml-4 sm:ml-0;
   }
 
   &__contact-button {
-    @apply inline-flex items-center justify-center px-3 py-2 border border-transparent text-base font-medium rounded-md;
+    @apply justify-center px-3 py-2 border border-transparent text-base font-medium rounded-md;
+    @apply rounded-md shadow;
     @apply button;
     @apply button--cta;
   }
 }
 
 .nav-link-logo {
-  @apply block;
-
   &--sm {
-    @apply px-3 py-2;
+    @apply hidden sm:block;
   }
 
   &--xs {
-    @apply block lg:hidden mr-4 pl-3 pr-16 py-2;
+    @apply sm:hidden;
   }
 }
 
-.logo-sm {
-  @apply hidden lg:block h-8 w-auto;
-}
+.nav-logo {
+  height: 3rem;
 
-.logo-xs {
-  @apply block h-8 w-auto;
+  &--sm {
+    @apply hidden sm:block h-8 w-auto;
+  }
+
+  &--xs {
+    @apply sm:hidden h-8 w-auto;
+  }
 }
 
 .language-picker {
@@ -65,7 +63,4 @@
     @apply absolute w-32 top-0 mt-0.5 ml-4 px-4 py-1.5;
     @apply rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5;
   }
-}
-
-.language-picker {
 }
