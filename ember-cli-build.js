@@ -9,11 +9,13 @@ const purgeCSS = {
       // add extra paths here for components/controllers which include tailwind classes
       './app/index.html',
       './app/templates/**/*.hbs',
+      './app/components/**/*.hbs',
     ],
     defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || [],
   },
 };
 
+// todo png images should not have a hash cache id
 module.exports = function (defaults) {
   // eslint-disable-next-line prefer-const
   let app = new EmberApp(defaults, {
@@ -22,41 +24,18 @@ module.exports = function (defaults) {
     },
     postcssOptions: {
       compile: {
+        enabled: true,
+        cacheInclude: [/.*\.(css|scss|sass|less)$/],
         plugins: [
-          {
-            module: require('postcss-import'),
-            options: {
-              path: ['node_modules'],
-            },
-          },
-          {
-            module: require('precss'),
-          },
+          { module: require('postcss-import') },
+          { module: require('precss') },
+          { module: require('postcss-preset-env') },
+          { module: require('postcss-nested') },
           require('tailwindcss')('./app/tailwind/config.js'),
           ...isProduction ? [purgeCSS] : [],
-          { module: require('postcss-nested') },
         ],
       },
     },
-    outputPaths: {
-      app: {
-        html: 'index.html',
-        css: {
-          app: '/assets/devedanos-portfolio.css',
-          // print: '/assets/print.css',
-        },
-      },
-    },
-    // 'ember-service-worker': {
-    //   enabled: false,
-    // },
-    /*
-    'esw-cache-fallback': {
-      patterns: [
-        '/api/v1/(.+)'
-      ],
-    }
-    */
   });
 
   // Use `app.import` to add additional libraries to the generated
