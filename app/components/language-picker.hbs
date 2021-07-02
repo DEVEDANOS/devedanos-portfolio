@@ -1,10 +1,10 @@
-<button type="button" aria-label="{{t "navbar.nav-main.language-picker.aria-label"}}"
+<button type="button" aria-label="{{t "navbar.nav-main.language-picker.aria-label"}}" title="{{this.imageAltMessage}}"
         aria-expanded="false" aria-controls="language-picker-dropdown" class="button language-picker__button"
   {{on "click" this.showLanguages}}
 >
   <span aria-hidden="true" class="language-picker__flag--english"></span>
 {{!--  <FaIcon @icon="globe" />--}}
-  <img id='language-picker__button-image' src='/assets/images/flags/{{this.language}}.png'
+  <img id='language-picker__button-image' src='{{rootURL}}assets/icons/globe.svg'
        alt="{{this.imageAltMessage}}"
   >
 </button>

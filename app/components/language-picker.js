@@ -20,16 +20,6 @@ export default class LanguagePickerComponent extends Component {
     const language = event.target.getAttribute('data-value');
     this.intl.setLocale([language]);
     this.language = await this.intl.locale[0];
-    this.changeFlagImageIcon(this.language);
     languagePicker.classList.add('hidden');
-  }
-
-  changeFlagImageIcon = (language) => {
-    const button = document.querySelector('.language-picker__button');
-    const buttonImage = document.querySelector('#language-picker__button-image');
-    if (button) {
-      buttonImage.src = `/assets/images/flags/${language}.png`;
-      return button.appendChild(buttonImage);
-    }
   }
 }
