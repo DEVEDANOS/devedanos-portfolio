@@ -1,7 +1,7 @@
 # devedanos-portfolio
 
 Welcome on the code repository my portofolio website, AKA [www.devedanos.com](https://devedanos.com),
-showing online my professional web development activities.
+showing online my professional web development activities. Deployed on Netlify. 
 
 Project management folder available on [here](https://www.notion.so/devedanos-com-162e730d2e3a4ef796c974f1a0fc4742)
 
@@ -20,7 +20,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `gh repo clone SEBASTIEN-THIBAUT-NOBOUR/devedanos-portfolio` this repository
 * `cd devedanos-portfolio`
 * `yarn install`
 
