@@ -25,23 +25,21 @@
       width: 20.4rem;
       position: relative;
     }
-  }
 
-  &__card:first-child {
     @media screen and (min-width: theme('screens.xs')) {
-      right: 1rem;
+      //left: .16rem;
     }
 
     @media screen and (min-width: theme('screens.sm')) {
-      right: 1rem;
+      //left: 1rem;
     }
 
     @media screen and (min-width: theme('screens.md')) {
-      right: 1rem;
+      left: -6rem;
     }
 
     @media screen and (min-width: theme('screens.lg')) {
-      right: 1rem;
+      left: -10rem;
     }
   }
 
