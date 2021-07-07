@@ -14,5 +14,6 @@ if (isCI || isProduction) {
 }
 
 module.exports = {
+  node: 'current',
   browsers,
 };
