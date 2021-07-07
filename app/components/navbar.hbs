@@ -1,7 +1,7 @@
 <nav class="navbar" id="navbar">
   <div class="navbar__left-content w-2/5 sm:w-auto">
     <LinkTo @route="index" class="nav-link-logo nav-link-logo--sm" aria-current="page">
-      <img src="{{rootURL}}assets/images/devedanos/web/svg/color-logo-no-background.svg" class="nav-logo logo--sm"
+      <img src="{{this.rootURL}}assets/images/devedanos/web/svg/color-logo-no-background.svg" class="nav-logo logo--sm"
            alt="{{t "links.home-logo"}}">
     </LinkTo>
 
@@ -10,7 +10,7 @@
     </div>
 
     <LinkTo @route="index" class="nav-link-logo nav-link-logo--xs" aria-current="page">
-      <img src="{{rootURL}}assets/images/devedanos/web/svg/color-logo-no-background.svg" class="nav-logo logo--xs"
+      <img src="{{this.rootURL}}assets/images/devedanos/web/svg/color-logo-no-background.svg" class="nav-logo logo--xs"
            alt="{{t "links.home-logo"}}">
     </LinkTo>
   </div>
