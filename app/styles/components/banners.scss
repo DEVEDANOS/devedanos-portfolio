@@ -100,10 +100,8 @@
       transform: translate(-50%, 0%);
 
       .button-contact {
-        @apply relative px-4 py-8 rounded-md uppercase font-bold;
+        @apply relative mt-24 px-4 py-8 rounded-md uppercase font-bold;
         @apply button button--cta;
-
-        top: 25%;
 
         @media screen and (min-width: theme('screens.xs')) {
           @apply xs-title;
@@ -177,5 +175,9 @@
     &--services {
       @apply text-center mb-2 md:mb-6 px-6 text-base md:text-2xl;
     }
+  }
+
+  &__availability {
+    @apply text-center mt-12 mb-2 md:mb-6 px-6 text-base md:text-2xl;
   }
 }
