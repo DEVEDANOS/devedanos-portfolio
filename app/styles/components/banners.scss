@@ -39,8 +39,11 @@
   }
 
   &--cta {
-    @apply banner-min-height;
-    @apply overflow-auto;
+    @apply banner-min-height overflow-auto bg-white;
+  }
+
+  &--process {
+    @apply bg-gray-50;
   }
 }
 
@@ -69,6 +72,10 @@
     }
 
     &--creations {
+      @apply py-12;
+    }
+
+    &--process {
       @apply py-12;
     }
   }
@@ -120,6 +127,9 @@
         }
       }
     }
+
+    &--process {
+    }
   }
 
   &__top {
@@ -157,6 +167,10 @@
     &--cta {
       @apply mb-12;
     }
+
+    &--process {
+      @apply mb-12;
+    }
   }
 
   &__title {
@@ -169,6 +183,10 @@
     &--cta {
       @apply text-pale-orange font-bold;
     }
+
+    &--process {
+      @apply pb-12 px-8 text-black;
+    }
   }
 
   &__introduction {
@@ -179,5 +197,17 @@
 
   &__availability {
     @apply text-center mt-12 mb-2 md:mb-6 px-6 text-base md:text-2xl;
+  }
+
+  &__details {
+    @apply px-12 sm:px-40 md:px-44 lg:px-52 text-base md:text-2xl;
+
+    ul {
+      @apply leading-tight list-disc;
+    }
+
+    li {
+      @apply my-8;
+    }
   }
 }
