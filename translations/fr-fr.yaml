@@ -11,6 +11,25 @@ pages:
         title: "J'aide les entreprises à créer leurs propres applications web sur mesure."
         image:
           description: "Image avec vue sur un coucher de soleil, des nuages et sommets de montagnes en contrebas"
+      services:
+        introduction: "Bonjour ! Je suis Sébastien NOBOUR,
+        développeur freelance français d'applications web, spécialisé sur Node.js et Javascript."
+        title: "Voici comment je peux vous aider"
+        card:
+          frontend:
+            description: "Développement de Single Page Applications via React.js ou Next.js pour un meilleur
+            SEO et UX via Server Side Rendering"
+            alt: "Image d'interface utilisateur"
+          backend:
+            description: "Développement d'APIs REST ou GraphQL ou JSON API avec Nest.js ou Express.js"
+            alt: "Image de traitement d'informations"
+          devops:
+            description: "Deploiement de SPAs and APIs via pipelines CI/CD et containers Docker dans le Cloud
+            Amazon Web Services"
+            alt: "Image de déploiement d'une application"
+          coaching:
+            description: "Coaching pour développeur web junior et étudiant.</br> 1 heure gratuite !"
+            alt: "Un développeur web aidé par son coach."
       creations:
         introduction: "Bonjour ! Je suis Sébastien NOBOUR,
         développeur freelance français d'applications web, spécialisé sur Node.js et Javascript."

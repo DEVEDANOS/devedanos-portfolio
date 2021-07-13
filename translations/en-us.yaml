@@ -11,6 +11,24 @@ pages:
         title: "I help companies to build their own custom web applications."
         image:
           description: "Image with view of a sunset, clouds and mountain peaks below"
+      services:
+        introduction: "Hello! I am Sébastien NOBOUR, freelance French web app developer,
+        specialized on Node.js and Javascript."
+        title: "And this is how I can help you"
+        card:
+          frontend:
+            description: "Development of Single Page Applications with React.js or Next.js
+            for better SEO and UX by Server Side Rendering"
+            alt: "User Interface image"
+          backend:
+            description: "Development of REST or GraphQL or JSON APIs with Nest.js or Express.js"
+            alt: "Data processing images"
+          devops:
+            description: "Deployment of SPAs and APIs with CI/CD pipelines and Docker containers on Amazon Web Services"
+            alt: "Application deployment image"
+          coaching:
+            description: "Coaching for junior and student web developer. 1 hour free!"
+            alt: "A web developer helped by his coach."
       creations:
         introduction: "Hello! I am Sébastien NOBOUR, freelance French web app developer, specialized on Node.js and Javascript."
         title: "And this is how I can help you"
