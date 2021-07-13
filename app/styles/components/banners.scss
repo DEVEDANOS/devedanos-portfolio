@@ -50,6 +50,22 @@
     @apply py-48;
   }
 
+  &--services {
+    .card {
+      @apply bg-gray-200;
+
+      width: 30rem;
+      position: relative;
+    }
+  }
+
+  &--creations {
+    .card {
+      width: 20.4rem;
+      position: relative;
+    }
+  }
+
   &__container {
     height: 100%;
 
@@ -170,7 +186,7 @@
   }
 
   &__introduction {
-    &--creations {
+    &--services {
       @apply text-center mb-2 md:mb-6 px-6 text-base md:text-2xl text-black;
     }
   }
