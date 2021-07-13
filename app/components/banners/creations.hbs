@@ -1,11 +1,8 @@
 <div class="banner-background banner-background--creations">
-  <section class="banner" id="banner-creations">
+  <section class="banner banner--creations" id="banner-creations">
     <div class="banner__container banner__container--creations">
       <div class="banner__content banner__content--creations">
         <div class="banner__top banner__top--creations">
-          <h2 class="banner__introduction banner__introduction--creations">
-          {{t 'pages.home.banners.creations.introduction'}}
-          </h2>
           <h2 class="banner__title banner__title--creations">
             {{t 'pages.home.banners.creations.title'}}
           </h2>
@@ -13,14 +10,14 @@
         <Carousels::Carousel>
           <Carousels::Card
             @url="https://www.nobour-eshop.com"
-            @urlName="nobour-eshop"
+            @name="nobour-eshop"
             @description= {{t "pages.home.banners.creations.card.nobour-eshop.description" }}
             @imgSrc="{{this.rootURL}}assets/images/creations/nobour-eshop.png"
             @imgAlt= {{t "pages.home.banners.creations.card.nobour-eshop.alt" }}
           />
           <Carousels::Card
             @url="https://crm.devedanos.com"
-            @urlName="sym-react-crm"
+            @name="sym-react-crm"
             @description= {{t "pages.home.banners.creations.card.sym-react-crm.description" }}
             @imgSrc="{{this.rootURL}}assets/images/creations/sym-react-crm.png"
             @imgAlt= {{t "pages.home.banners.creations.card.sym-react-crm.alt" }}
@@ -28,7 +25,7 @@
 
           <Carousels::Card
             @url="https://calendly.com/snitpro/1h"
-            @urlName="coaching"
+            @name="coaching"
             @description= {{t "pages.home.banners.creations.card.coaching.description" htmlSafe=true }}
             @imgSrc="{{this.rootURL}}assets/images/creations/coaching.jpg"
             @imgAlt= {{t "pages.home.banners.creations.card.coaching.alt" }}
