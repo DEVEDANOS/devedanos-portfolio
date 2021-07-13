@@ -57,6 +57,12 @@ pages:
         un devis détaillé."
         line-3: "Enfin, après notre premier appel, vous recevrez le devis par email et je vous recontacterai par
         téléphone pour entendre votre décision."
+      about-me:
+        title: "À propos de moi"
+        line-1: "J'ai commencé le développement web en septembre 2018."
+        line-2: "Je suis également un entrepreneur. Mon mindset ? 'Client-first' et 'data-driven' dans mes décisions,
+        et je m'efforce d'être constructif dans mes propos."
+        line-3: "Et pour en savoir plus, voici mon CV complet"
   legal-notices:
     title: "MENTIONS LÉGALES"
     paragraph-1: "Identification de l'éditeur et de l'hébergeur du site"

@@ -55,6 +55,12 @@ pages:
         a detailed quote."
         line-3: "Finally, after our first call, you will receive the quote by email and I will contact you by phone to
         to hear your decision."
+      about-me:
+        title: "About me"
+        line-1: "I started web development in september 2018"
+        line-2: "I am also an entrepreneur. My mindest ? Client first and data-driven decisions,
+        striving to be upbuilding in my words"
+        line-3: "And to know more, here is my complete resume"
   legal-notices:
     title: "LEGAL NOTICES"
     paragraph-1: "Identification of the publisher and host of the site"
