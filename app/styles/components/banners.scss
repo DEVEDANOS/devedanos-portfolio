@@ -31,7 +31,6 @@
   &--services {
     @apply bg-white;
     height: 40rem;
-
   }
 
   &--creations {
@@ -44,6 +43,8 @@
 
   &--process {
     @apply bg-gray-50;
+
+    height: 42rem;
   }
 }
 
@@ -129,6 +130,7 @@
     }
 
     &--process {
+      @apply pb-12;
     }
   }
 
@@ -165,11 +167,11 @@
     }
 
     &--cta {
-      @apply mb-12;
+      @apply mb-40;
     }
 
     &--process {
-      @apply mb-12;
+      @apply mb-12 lg:mb-32;
     }
   }
 
@@ -185,7 +187,7 @@
     }
 
     &--process {
-      @apply pb-12 px-8 text-black;
+      @apply px-8 text-black;
     }
   }
 

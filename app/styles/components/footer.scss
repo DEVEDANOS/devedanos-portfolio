@@ -1,5 +1,5 @@
 footer {
-  @apply flex flex-col w-full pt-12 pb-4 px-12 lg:px-28 bg-black text-white;
+  @apply relative flex flex-col w-full pt-12 pb-4 px-12 lg:px-28 bg-black text-white;
 
   a {
     @apply text-white;
