@@ -46,6 +46,12 @@
 
     height: 42rem;
   }
+
+  &--about-me {
+    @apply bg-white;
+
+    height: 42rem;
+  }
 }
 
 .banner {
@@ -77,6 +83,10 @@
     }
 
     &--process {
+      @apply py-12;
+    }
+
+    &--about-me {
       @apply py-12;
     }
   }
@@ -132,6 +142,10 @@
     &--process {
       @apply pb-12;
     }
+
+    &--about-me {
+      @apply pb-12;
+    }
   }
 
   &__top {
@@ -173,6 +187,10 @@
     &--process {
       @apply mb-12 lg:mb-32;
     }
+
+    &--about-me {
+      @apply mb-12 lg:mb-32;
+    }
   }
 
   &__title {
@@ -187,6 +205,10 @@
     }
 
     &--process {
+      @apply px-8 text-black;
+    }
+
+    &--about-me {
       @apply px-8 text-black;
     }
   }
