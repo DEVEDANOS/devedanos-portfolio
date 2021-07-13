@@ -1,0 +1,47 @@
+<div class="banner-background banner-background--services">
+  <section class="banner" id="banner-services">
+    <div class="banner__container banner__container--services">
+      <div class="banner__content banner__content--services">
+        <div class="banner__top banner__top--services">
+          <h2 class="banner__introduction">
+          {{t 'pages.home.banners.creations.introduction'}}
+          </h2>
+          <h2 class="banner__title">
+            {{t 'pages.home.banners.creations.title'}}
+          </h2>
+        </div>
+        <Carousels::Carousel>
+          <Carousels::Card
+            @url="https://www.nobour-eshop.com"
+            @urlName="frontend"
+            @description= {{t "pages.home.banners.services.card.frontend.description" }}
+            @imgSrc="{{this.rootURL}}assets/images/services/frontend.png"
+            @imgAlt= {{t "pages.home.banners.creations.card.nobour-eshop.alt" }}
+          />
+          <Carousels::Card
+            @url="https://crm.devedanos.com"
+            @urlName="backend"
+            @description= {{t "pages.home.banners.services.card.backend.description" }}
+            @imgSrc="{{this.rootURL}}assets/images/services/backend.png"
+            @imgAlt= {{t "pages.home.banners.creations.card.sym-react-crm.alt" }}
+          />
+
+          <Carousels::Card
+            @url="https://calendly.com/snitpro/1h"
+            @urlName="devops"
+            @description= {{t "pages.home.banners.services.card.devops.description" htmlSafe=true }}
+            @imgSrc="{{this.rootURL}}assets/images/services/devops.jpg"
+            @imgAlt= {{t "pages.home.banners.creations.card.coaching.alt" }}
+          />
+          <Carousels::Card
+            @url="https://calendly.com/snitpro/1h"
+            @urlName="coaching"
+            @description= {{t "pages.home.banners.services.card.coaching.description" htmlSafe=true }}
+            @imgSrc="{{this.rootURL}}assets/images/creations/coaching.jpg"
+            @imgAlt= {{t "pages.home.banners.creations.card.coaching.alt" }}
+          />
+        </Carousels::Carousel>
+      </div>
+    </div>
+  </section>
+</div>

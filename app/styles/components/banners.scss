@@ -29,6 +29,10 @@
     }
   }
 
+  /* &--services {
+
+  } */
+
   &--creations {
     background-color: $light-gray;
   }
@@ -140,16 +144,34 @@
       @apply lg:px-7;
     }
 
+    &--services {
+      @apply text-white;
+    }
+
     &--cta {
       @apply mb-12;
     }
   }
 
   &__title {
-    @apply text-center pb-12 text-black;
+    @apply text-center;
+
+    &--services {
+      @apply text-pale-orange font-bold;
+    }
+
+    &--creations {
+      @apply pb-12 text-black;
+    }
+
+    &--cta {
+      @apply text-pale-orange font-bold;
+    }
   }
 
   &__introduction {
-    @apply text-center mb-2 md:mb-6 px-6 text-base md:text-2xl text-black;
+    &--creations {
+      @apply text-center mb-2 md:mb-6 px-6 text-base md:text-2xl text-black;
+    }
   }
 }

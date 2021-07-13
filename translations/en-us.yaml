@@ -21,17 +21,16 @@ pages:
             for better SEO and UX by Server Side Rendering"
             alt: "User Interface image"
           backend:
-            description: "Development of REST or GraphQL or JSON APIs with Nest.js or Express.js"
-            alt: "Data processing images"
+            description: "Development of REST or GraphQL or JSON APIs with Nest.js or Express.js with SQL or NoSQL databases"
+            alt: "Binary data processing image"
           devops:
             description: "Deployment of SPAs and APIs with CI/CD pipelines and Docker containers on Amazon Web Services"
-            alt: "Application deployment image"
+            alt: "Image of a cloud"
           coaching:
-            description: "Coaching for junior and student web developer. 1 hour free!"
+            description: "Coaching for junior and student web developer"
             alt: "A web developer helped by his coach."
       creations:
-        introduction: "Hello! I am Sébastien NOBOUR, freelance French web app developer, specialized on Node.js and Javascript."
-        title: "And this is how I can help you"
+        title: "Here are some of my realisations"
         card:
           nobour-eshop:
             description: "E-commerce SPA and REST API using MERN stack, Docker, and deployed on AWS through CI/CD."
@@ -43,7 +42,7 @@ pages:
             description: "MVC web application built with Symfony 5 and replicating AirBnB."
             alt: "Sym5bnb screenshot"
           coaching:
-            description: "Coaching for junior and student web developer. 1 hour free!"
+            description: "Book your 1 hour free coaching!"
             alt: "A web developer helped by his coach."
       cta:
         title: "Request a quote!"

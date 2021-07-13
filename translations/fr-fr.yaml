@@ -17,23 +17,21 @@ pages:
         title: "Voici comment je peux vous aider"
         card:
           frontend:
-            description: "Développement de Single Page Applications via React.js ou Next.js pour un meilleur
+            description: "Développement de Single Page Applications via React.js ou Next.js pour de meilleurs
             SEO et UX via Server Side Rendering"
             alt: "Image d'interface utilisateur"
           backend:
-            description: "Développement d'APIs REST ou GraphQL ou JSON API avec Nest.js ou Express.js"
-            alt: "Image de traitement d'informations"
+            description: "Développement d'APIs REST ou GraphQL ou JSON API avec Nest.js ou Express.js, avec bases de données SQL ou NoSQL"
+            alt: "Image de traitement d'informations binaires"
           devops:
             description: "Deploiement de SPAs and APIs via pipelines CI/CD et containers Docker dans le Cloud
             Amazon Web Services"
-            alt: "Image de déploiement d'une application"
+            alt: "Image d'un nuage"
           coaching:
-            description: "Coaching pour développeur web junior et étudiant.</br> 1 heure gratuite !"
+            description: "Coaching pour développeur web junior et étudiant."
             alt: "Un développeur web aidé par son coach."
       creations:
-        introduction: "Bonjour ! Je suis Sébastien NOBOUR,
-        développeur freelance français d'applications web, spécialisé sur Node.js et Javascript."
-        title: "Voici comment je peux vous aider"
+        title: "Voici quelques-unes de mes réalisations"
         card:
           nobour-eshop:
             description: "SPA et API REST e-commerce en MERN stack et Docker, déployée sur AWS via CI/CD."
@@ -45,7 +43,7 @@ pages:
             description: "Application web MVC développée en Symfony 5 répliquant AirBnB."
             alt: "capture d'écran de sym-5-bnb"
           coaching:
-            description: "Coaching pour développeur web junior et étudiant.</br> 1 heure gratuite !"
+            description: "Réservez 1 heure gratuite de coaching !"
             alt: "Un développeur web aidé par son coach."
       cta:
         title: "Demandez un devis !"
