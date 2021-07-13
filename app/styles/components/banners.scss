@@ -88,16 +88,10 @@
       transform: translate(-50%, 0%);
 
       .button-contact {
-        @apply relative;
-        @apply top-52;
-        @apply px-4;
-        @apply py-8;
-        @apply rounded-md;
-        @apply uppercase;
-        @apply font-bold;
+        @apply relative px-4 py-8 rounded-md uppercase font-bold;
+        @apply button button--cta;
 
-        @apply button;
-        @apply button--cta;
+        top: 25%;
 
         @media screen and (min-width: theme('screens.xs')) {
           @apply xs-title;
