@@ -12,7 +12,7 @@ pages:
         image:
           description: "Image with view of a sunset, clouds and mountain peaks below"
       creations:
-        introduction: "Hello! I am Sébastien NOBOUR, freelance French web app developer, specialized on PHP, Node.js and Javascript."
+        introduction: "Hello! I am Sébastien NOBOUR, freelance French web app developer, specialized on Node.js and Javascript."
         title: "And this is how I can help you"
         card:
           nobour-eshop:
