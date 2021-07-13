@@ -21,25 +21,27 @@
     @apply bg-white;
     @apply shadow-lg;
 
-    &--creations {
-      width: 20.4rem;
-      position: relative;
-    }
+    left: 0;
 
     @media screen and (min-width: theme('screens.xs')) {
-      //left: .16rem;
+      /* left: .16rem; */
     }
 
     @media screen and (min-width: theme('screens.sm')) {
-      //left: 1rem;
+     /* left: 1rem; */
     }
 
     @media screen and (min-width: theme('screens.md')) {
-      left: -6rem;
+      /* left: -4rem; */
     }
 
     @media screen and (min-width: theme('screens.lg')) {
-      left: -10rem;
+      /* left: 0; */
+    }
+
+    &--creations {
+      width: 20.4rem;
+      position: relative;
     }
   }
 
