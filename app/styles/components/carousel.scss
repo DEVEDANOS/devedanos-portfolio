@@ -22,6 +22,7 @@
     @apply shadow-lg;
 
     left: 0;
+    width: 20.4rem;
 
     @media screen and (min-width: theme('screens.xs')) {
       /* left: .16rem; */

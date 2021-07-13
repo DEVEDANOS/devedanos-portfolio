@@ -14,7 +14,6 @@
     background-size: cover;
     width: 100%;
     z-index: 0;
-    @apply banner-height;
 
     @media screen and (min-width: theme('screens.xs')) {
       background-position: 80% 0;
@@ -29,12 +28,14 @@
     }
   }
 
-  /* &--services {
+  &--services {
+    @apply bg-white;
+    height: 40rem;
 
-  } */
+  }
 
   &--creations {
-    background-color: $light-gray;
+    @apply bg-gray-50;
   }
 
   &--cta {
@@ -52,17 +53,7 @@
 
   &--services {
     .card {
-      @apply bg-gray-200;
-
-      width: 30rem;
-      position: relative;
-    }
-  }
-
-  &--creations {
-    .card {
-      width: 20.4rem;
-      position: relative;
+      @apply bg-gray-50;
     }
   }
 
@@ -70,14 +61,11 @@
     height: 100%;
 
     &--usp {
-      @apply w-2/3;
-      @apply lg:w-2/5;
-      @apply mx-auto;
-      @apply align-middle;
-      @apply py-2;
-      @apply px-3;
-      @apply rounded;
-      @apply bg-black--smock;
+      @apply mx-auto align-middle py-2 px-3 rounded bg-black--smock;
+    }
+
+    &--services {
+      @apply py-12;
     }
 
     &--creations {
@@ -92,17 +80,21 @@
       @apply px-3;
     }
 
+    &--services {
+      @apply px-0;
+
+      .carousel__card-img {
+        @apply border-0;
+      }
+    }
+
     &--creations {
       @apply px-0;
     }
 
     &--cta {
-      @apply relative;
-      @apply px-12;
-      @apply py-12;
-      @apply w-full;
-      @apply sm:w-8/12;
-      @apply overflow-auto;
+      @apply relative px-12 py-12 w-full sm:w-8/12 overflow-auto;
+
       height: 90%;
       left: 50%;
       transform: translate(-50%, 0%);
@@ -161,7 +153,7 @@
     }
 
     &--services {
-      @apply text-white;
+      @apply mb-12 text-black;
     }
 
     &--cta {
@@ -171,10 +163,6 @@
 
   &__title {
     @apply text-center;
-
-    &--services {
-      @apply text-pale-orange font-bold;
-    }
 
     &--creations {
       @apply pb-12 text-black;
@@ -187,7 +175,7 @@
 
   &__introduction {
     &--services {
-      @apply text-center mb-2 md:mb-6 px-6 text-base md:text-2xl text-black;
+      @apply text-center mb-2 md:mb-6 px-6 text-base md:text-2xl;
     }
   }
 }
