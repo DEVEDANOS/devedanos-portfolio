@@ -61,6 +61,11 @@ a {
   background-color: $vibrant-orange;
 }
 
+.bg-blur {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+
 .banner-height {
   height: 36rem;
 }
