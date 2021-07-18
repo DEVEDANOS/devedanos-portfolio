@@ -43,18 +43,18 @@ pages:
             description: "Application web MVC développée en Symfony 5 répliquant AirBnB."
             alt: "capture d'écran de sym-5-bnb"
           coaching:
-            description: "Développeur junior ou étudiant ? Réservez 1 heure gratuite de coaching !"
+            description: "Développeur junior ou étudiant ? Réservez votre heure gratuite de coaching !"
             alt: "Un développeur web aidé par son coach."
       cta:
         title: "Demandez un devis !"
-        availability : "Je suis disponible immédiatemment"
+        availability : "Je suis disponible immédiatement"
       process:
         title: "'Que se passe-t-il une fois que j'ai demandé un devis ?'"
-        line-1: "Après avoir analysé la description globale de votre projet, vous recevrez ma décision d'accompagement
+        line-1: "Après avoir analysé la description globale de votre projet, vous recevrez ma décision d'accompagnement
         par email. Si je peux vous accompagner, vous pourrez réserver un premier appel via un lien dans
         l'email même."
-        line-2: "Au cours du premier appel, je chercherai à cerner précisémment votre projet pour vous préparer
-        un devis détaillé."
+        line-2: "Au cours du premier appel, je chercherai à cerner précisément votre projet pour vous préparer un
+        devis détaillé."
         line-3: "Enfin, après notre premier appel, vous recevrez le devis par email et je vous recontacterai par
         téléphone pour entendre votre décision."
       about-me:
