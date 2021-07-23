@@ -26,7 +26,8 @@ footer {
   }
 
   .content-title {
-    @apply text-lg;
+    @apply text-lg border-b-2 mb-3;
+    width: 16rem;
   }
 
   .links-list {
