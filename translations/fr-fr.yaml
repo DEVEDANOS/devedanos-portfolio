@@ -13,7 +13,7 @@ pages:
           description: "Image avec vue sur un coucher de soleil, des nuages et sommets de montagnes en contrebas"
       services:
         introduction: "Bonjour ! Je suis Sébastien NOBOUR,
-        développeur freelance français d'applications web, spécialisé sur Node.js et Javascript."
+        développeur freelance français d'applications web, proche de Paris, spécialisé sur Node.js et Javascript."
         title: "Voici comment je peux vous aider"
         card:
           frontend:
