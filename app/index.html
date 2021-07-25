@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://www.devedanos.com" rel="canonical">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://www.devedanos.com" rel="canonical">
 
-    {{content-for "head"}}
-    <meta name="description"
-          content="Devedanos web development.
-          Sébastien NOBOUR, développeur d'applications web freelance, spécialisé en PHP,
-          Node.js et Javascript. J'aide les entreprises à créer leurs propres applications web personnalisées.
-          Du site web statique pour un site vitrine jusqu'aux applications web en API REST et Single Page Application.
-          Sébastien NOBOUR, freelance web application developer, specialized on PHP, Node.js and Javascript.
-          I help companies to build their own custom web applications.
-          From static website for a showroom website till API REST and Single Page Application for
-          full-stack web applications."
-    >
-    <link rel="icon" type="image/png" href="{{rootURL}}assets/images/devedanos/favicon/favicon_symbol.png">
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/devedanos-portfolio.css">
+  {{content-for "head"}}
+  <meta name="description"
+        content="Devedanos web development by Sébastien NOBOUR
+        Développeur web freelance full-stack proche de Paris, France.
+        Freelance full-stack web developer near Paris, France.
+        Développeur web et d'applications web, spécialisé sur React.js, Next.js, Node.js and Javascript.
+        J'aide les entreprises à créer leurs propres applications web sur mesure.
+        Du site web statique pour un site vitrine jusqu'aux applications web en API REST ou GraphQL
+        et Single Page Application pour une application full-stack avec déploiement dans le cloud.
 
-    {{content-for "head-footer"}}
-  </head>
-  <body>
-    {{content-for "body"}}
+        Sébastien NOBOUR, freelance web application developer, specialized on React.js, Next.js, Node.js and Javascript.
+        I help companies to build their own custom web applications.
+        From static website for a showroom till REST or GraphQL APIs and Single Page Application for
+        full-stack web applications with deployment on cloud services.
 
-    <script src="{{rootURL}}assets/vendor.js"></script>
-    <script src="{{rootURL}}assets/devedanos-portfolio.js"></script>
-    {{content-for "body-footer"}}
-  </body>
+        Services: Frontend, backend, devops, REST API, JSON API, GraphQL API, Server Side Rendering,
+        Single Page Application (SPA), static websites with JAMSTACK, SEO.
+        Technologies: React.js, Next.js, Node.js, Nest.js, Express.js, Ember.js"
+  >
+  <link rel="icon" type="image/png" href="{{rootURL}}assets/images/devedanos/favicon/favicon_symbol.png">
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/devedanos-portfolio.css">
+
+  {{content-for "head-footer"}}
+</head>
+<body>
+{{content-for "body"}}
+
+<script src="{{rootURL}}assets/vendor.js"></script>
+<script src="{{rootURL}}assets/devedanos-portfolio.js"></script>
+{{content-for "body-footer"}}
+</body>
 </html>

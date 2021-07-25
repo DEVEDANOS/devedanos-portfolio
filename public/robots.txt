@@ -1,3 +1,9 @@
 # http://www.robotstxt.org
+
 User-agent: *
-Disallow:
+Allow: /
+
+User-agent: *
+Disallow: https://blog.devedanos.com/
+
+Sitemap: https://www.devedanos.com/sitemap.xml
