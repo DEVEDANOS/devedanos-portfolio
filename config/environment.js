@@ -61,7 +61,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.blog.host = 'https://blog.devedanos.com';
+    // ENV.blog.host = 'https://blog.devedanos.com';
   }
 
   return ENV;
