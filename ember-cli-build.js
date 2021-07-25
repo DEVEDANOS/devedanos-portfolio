@@ -19,6 +19,9 @@ const purgeCSS = {
 module.exports = function (defaults) {
   // eslint-disable-next-line prefer-const
   let app = new EmberApp(defaults, {
+    'ember-service-worker': {
+      enabled: false,
+    },
     fingerprint: {
       extensions: ['js', 'css', 'scss', 'map', 'json', 'md', 'jpg', 'jpeg', 'png'],
     },
