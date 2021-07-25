@@ -1,9 +1,9 @@
 <div class="card carousel__card carousel__card--creations">
   <div class="carousel__card-content">
     {{#if @url}}
-      <h1 class="mb-1 text-base font-medium"><a href="{{ @url }}">{{ @name }}</a></h1>
+      <h2 class="mb-1 text-base font-medium"><a href="{{ @url }}">{{ @name }}</a></h2>
     {{else}}
-      <h1 class="mb-1 text-base font-medium">{{ @name }}</h1>
+      <h2 class="mb-1 text-base font-medium">{{ @name }}</h2>
     {{/if}}
     <p class="mb-1 h-12">{{ @description }}</p>
     <LinkTo @route="index" class="invisible text-base font-medium" aria-current="page">
