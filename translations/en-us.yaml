@@ -17,8 +17,8 @@ pages:
         title: "And this is how I can help you"
         card:
           frontend:
-            description: "Development of Single Page Applications with React.js or Next.js
-            for better SEO and UX by Server Side Rendering"
+            description: "Development of responsive Single Page Applications with React.js or Next.js frameworks
+            for better SEO and UX."
             alt: "User Interface image"
           backend:
             description: "Development of REST or GraphQL or JSON APIs with Nest.js or Express.js with SQL or NoSQL databases"
@@ -57,10 +57,13 @@ pages:
         to hear your decision."
       about-me:
         title: "About me"
-        line-1: "I started web development in september 2018"
+        line-1: "I started web development in September 2018. I graduated as an application developer of applications
+        since 2020. Computer science is a passion and I always wanted to become a developer/programmer."
         line-2: "I am also an entrepreneur. My mindest ? Client first and data-driven decisions,
-        striving to be upbuilding in my words"
-        line-3: "And to know more, here is my complete resume"
+        I strive to be constructive in what I say and provide a great user experience."
+        line-3: "I am specialized on the Javascript programming language and prefer to use its backend framework
+        Node.js instead of PHP, although I was also a PHP developer (with Symfony, API-Platform or CMS Wordpress)"
+        line-4: "And to know more, here is my complete resume"
   legal-notices:
     title: "LEGAL NOTICES"
     paragraph-1: "Identification of the publisher and host of the site"
