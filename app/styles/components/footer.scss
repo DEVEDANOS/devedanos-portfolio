@@ -27,7 +27,14 @@ footer {
 
   .content-title {
     @apply text-lg border-b-2 mb-3;
-    width: 16rem;
+
+    @media screen and (min-width: theme('screens.xs')) {
+      width: 16rem;
+    }
+
+    @media screen and (min-width: theme('screens.sm')) {
+      width: 10rem;
+    }
   }
 
   .links-list {
@@ -48,7 +55,7 @@ footer {
       }
 
       img {
-         @apply mr-3;
+        @apply mr-3;
       }
     }
   }
