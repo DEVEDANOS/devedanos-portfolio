@@ -1,5 +1,6 @@
 <button type="button" aria-label="{{t "navbar.nav-main.language-picker.aria-label"}}" title="{{this.imageAltMessage}}"
         aria-expanded="false" aria-controls="language-picker-dropdown" class="button language-picker__button"
+        data-test="language-picker-button"
   {{on "click" this.showLanguages}}
 >
   <span aria-hidden="true" class="language-picker__flag--english"></span>
@@ -14,14 +15,14 @@
   id="language-picker-dropdown"
 >
   <p class="sr-only" id="language-picker-description">{{t "navbar.nav-main.language-picker.description"}}</p>
-  <ul class="language-picker__list" role="listbox">
-    <li lang="fr" role="option" data-value="fr-fr"
+  <ul class="language-picker__list" role="listbox" data-test="language-picker-list">
+    <li lang="fr" role="option" data-value="fr-fr" data-test="language-picker-fr-fr"
         class="language-picker__flag language-picker__flag--french"
       {{on "click" this.changeLanguage}}
     >
       {{t "languages.list.fr-fr"}}
     </li>
-    <li lang="en" aria-selected="true" role="option" data-value="en-us"
+    <li lang="en" aria-selected="true" role="option" data-value="en-us" data-test="language-picker-en-us"
         class="language-picker__flag language-picker__flag--english"
       {{on "click" this.changeLanguage}}
     >
