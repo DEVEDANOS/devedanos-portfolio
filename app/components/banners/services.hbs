@@ -4,7 +4,7 @@
       <div class="banner__content banner__content--services">
         <div class="banner__top banner__top--services">
           <h1 class="banner__introduction banner__introduction--services">
-          {{t 'pages.home.banners.services.introduction'}}
+            {{t 'pages.home.banners.services.introduction'}}
           </h1>
           <h2 class="banner__title banner__title--services">
             {{t 'pages.home.banners.services.title'}}
@@ -13,20 +13,19 @@
         <Carousels::Carousel>
           <Carousels::Card
             @name="frontend"
-            @description= {{t "pages.home.banners.services.card.frontend.description" }}
+            @description="{{t "pages.home.banners.services.card.frontend.description" }}"
             @imgSrc="{{this.rootURL}}assets/images/services/frontend.jpg"
             @imgAlt= {{t "pages.home.banners.services.card.frontend.alt" }}
           />
           <Carousels::Card
             @name="backend"
-            @description= {{t "pages.home.banners.services.card.backend.description" }}
+            @description= "{{t "pages.home.banners.services.card.backend.description" }}"
             @imgSrc="{{this.rootURL}}assets/images/services/backend.jpg"
             @imgAlt= {{t "pages.home.banners.services.card.backend.alt" }}
           />
-
           <Carousels::Card
             @name="devops"
-            @description= {{t "pages.home.banners.services.card.devops.description" htmlSafe=true }}
+            @description= "{{t "pages.home.banners.services.card.devops.description" htmlSafe=true }}"
             @imgSrc="{{this.rootURL}}assets/images/services/devops.jpg"
             @imgAlt= {{t "pages.home.banners.services.card.devops.alt" }}
           />
