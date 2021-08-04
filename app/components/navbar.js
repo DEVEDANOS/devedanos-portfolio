@@ -1,6 +1,11 @@
 import Component from '@glimmer/component';
+import { action } from '@ember/object';
+import { inject as service } from '@ember/service';
+import { later } from '@ember/runloop';
 
 export default class NavbarComponent extends Component {
+  @service router;
+
   changeMobileMenuVisibility = () => {
     const mobileMenu = document.querySelector('#mobile-menu');
     const buttonMobileMenuClosed = document.querySelector('.nav-main__button-mobile-menu--closed');
@@ -16,11 +21,21 @@ export default class NavbarComponent extends Component {
     return buttonMobileMenuOpened.classList.toggle('hidden');
   }
 
-  // changeNavbarBackgroundColor = () => {
-  //   const navbar = document.querySelector('#navbar');
-  //   if (window.scrollY <= 10) {
-  //     return navbar.classList.add('bg-white');
-  //   }
-  //   return navbar.classList.add('bg-transparent');
-  // }
+  @action
+  async requestQuote (event) {
+    event.preventDefault();
+
+    if (this.router.currentURL !== '/') {
+      await this.router.transitionTo('/');
+      return later(this, () => {
+        this.goToLink();
+      }, 500);
+    }
+    this.goToLink();
+  }
+
+  goToLink () {
+    const link = document.querySelector('[data-quote-request-link]');
+    link.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
+  }
 }

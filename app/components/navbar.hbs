@@ -15,6 +15,10 @@
     </LinkTo>
   </div>
   <div class="navbar__right-content">
-    <a href="#quote-request" class="navbar__contact-button">{{t "navbar.nav-main.contact.text"}}</a>
+    <button type="button" class="navbar__contact-button" data-test="nav-quote-request"
+      {{on "click" this.requestQuote}}
+    >
+      {{t "navbar.nav-main.contact.text"}}
+    </button>
   </div>
 </nav>

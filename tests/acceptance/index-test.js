@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { visit, currentURL, click, /* pauseTest */ } from '@ember/test-helpers';
+import { visit, currentURL, click /* pauseTest */ } from '@ember/test-helpers';
 import { setupApplicationTest } from 'ember-qunit';
 import { setupIntl, setLocale, t } from 'ember-intl/test-support';
 
