@@ -63,6 +63,7 @@
     "ember-service-worker-index": "^0.7.1",
     "ember-source": "~3.26.1",
     "ember-template-lint": "^3.2.0",
+    "ember-test-selectors": "^6.0.0",
     "ember-welcome-page": "^4.0.0",
     "empress-blog": "^3.2.0",
     "eslint": "^7.23.0",
