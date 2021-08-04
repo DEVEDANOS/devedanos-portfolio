@@ -67,7 +67,7 @@ pages:
         line-3: "Je suis spécialisé sur le langage de programmation Javascript et préfère utiliser son framework
         backend Node.js au lieu de PHP, bien que j'ai aussi été développeur PHP (avec les frameworks Symfony,
         API-Platform ou CMS Wordpress)"
-        line-4: "Et pour en savoir plus, voici mon CV complet"
+        line-4: "Et pour en savoir plus, voici mon CV"
   legal-notices:
     title: "MENTIONS LÉGALES"
     paragraph-1: "Identification de l'éditeur et de l'hébergeur du site"
