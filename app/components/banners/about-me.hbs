@@ -13,11 +13,7 @@
             <li>{{t 'pages.home.banners.about-me.line-2'}}</li>
             <li>{{t 'pages.home.banners.about-me.line-3'}}</li>
             <li>
-              <a href="{{this.resumeUrl}}"
-                 target="_blank" rel="noopener noreferrer" data-test-app="link-resume"
-              >
-                {{t 'pages.home.banners.about-me.line-4'}}
-              </a>
+              <LinkTo @route="resume" aria-current="page">{{t 'pages.home.banners.about-me.line-4'}}</LinkTo>
             </li>
           </ul>
         </div>
