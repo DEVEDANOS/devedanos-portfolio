@@ -1,0 +1,16 @@
+{{page-title (t "links.resume") }}
+<div class="page">
+  <object
+    data='{{this.rootURL}}assets/resumes/fr_freelance_full-stack_developer.pdf' type='application/pdf'
+    aria-label="{{t "pages.resume.cv-aria-label" }}" class="pdf-object"
+  >
+    <div class="no-pdf-reader">
+      <p>
+        {{t "messages.no-pdf-reader"}}
+        <a href="{{this.rootURL}}assets/resumes/fr_freelance_full-stack_developer.pdf" download>
+          {{t "messages.download-pdf"}}
+        </a>
+      </p>
+    </div>
+  </object>
+</div>

@@ -3,6 +3,9 @@ logo: 'logo'
 devedanos-logo: "Devedanos logo; Devedanos: Web development"
 buttons:
   details: "More details"
+messages:
+  no-pdf-reader: "It seems that your web browser does not have a PDF reader."
+  download-pdf: "Click here to download the PDF file"
 pages:
   home:
     title: 'Devedanos | Home'
@@ -65,7 +68,7 @@ pages:
         Node.js instead of PHP, although I was also a PHP developer (with Symfony, API-Platform or CMS Wordpress)"
         line-4: "And to know more, here is my resume"
   legal-notices:
-    title: "LEGAL NOTICES"
+    title: "Devedanos | Legal Notices"
     paragraph-1: "Identification of the publisher and host of the site"
     paragraph-2: "The website www.devedanos.com is edited by SEBASTIEN THIBAUT NOBOUR Micro-entreprise,
       a company registered at the RCS of VERSAILLES under the number 847696416,
@@ -77,19 +80,22 @@ pages:
       Information regarding the collection and processing of personal data (policy and statement) is provided
       in the site's personal data policy."
     paragraph-6: "All rights reserved - June 29, 2021"
+  resume:
+    title: "Devedanos | Resume"
+    cv-aria-label: "PDF resume"
 forms:
   contact:
-      full-name:
-        label: "Full name"
-        placeholder: "ex: Sébastien NOBOUR - Devedanos"
-      email:
-        label: "Email address"
-        placeholder: "ex: contact@devedanos.com"
-      message:
-        label: "Message"
-        placeholder: "Write your message here"
-      submit:
-        title: "REQUEST A QUOTE NOW!"
+    full-name:
+      label: "Full name"
+      placeholder: "ex: Sébastien NOBOUR - Devedanos"
+    email:
+      label: "Email address"
+      placeholder: "ex: contact@devedanos.com"
+    message:
+      label: "Message"
+      placeholder: "Write your message here"
+    submit:
+      title: "REQUEST A QUOTE NOW!"
 languages:
   list:
     fr-fr: 'Français'
@@ -104,6 +110,7 @@ links:
   home: 'Home'
   home-logo: 'Devedanos logo. Click on it to return to home page'
   legal-notices: "Legal notices"
+  resume: 'Resume'
 navbar:
   nav-main:
     button-mobile-menu:
@@ -115,7 +122,6 @@ navbar:
         alt: '{language} language is currently active.'
     contact:
       text: 'Request a quote'
-
 social-medias:
   title: "Let's keep in touch"
   links:

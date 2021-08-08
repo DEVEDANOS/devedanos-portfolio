@@ -9,4 +9,5 @@ export default class Router extends EmberRouter {
 // eslint-disable-next-line array-callback-return
 Router.map(function () {
   this.route('legal-notices');
+  this.route('resume');
 });

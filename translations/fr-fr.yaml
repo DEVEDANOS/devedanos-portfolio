@@ -3,6 +3,9 @@ logo: "logo"
 devedanos-logo: "Logo de Devedanos: Devedanos: Développement web"
 buttons:
   details: "Plus de détails"
+messages:
+  no-pdf-reader: "Il semble que votre navigateur web ne possède pas de liseuse de PDF."
+  download-pdf: "Cliquez ici pour télécharger le fichier PDF."
 pages:
   home:
     title: "Devedanos | Accueil"
@@ -69,7 +72,7 @@ pages:
         API-Platform ou CMS Wordpress)"
         line-4: "Et pour en savoir plus, voici mon CV"
   legal-notices:
-    title: "MENTIONS LÉGALES"
+    title: "Devedanos |Mentions Légales"
     paragraph-1: "Identification de l'éditeur et de l'hébergeur du site"
     paragraph-2: "Le site www.devedanos.com est édité par SEBASTIEN THIBAUT NOBOUR Micro-entreprise, entreprise
       immatriculée au RCS de VERSAILLES sous le numéro 847696416, dont le siège social est sis au
@@ -81,6 +84,9 @@ pages:
       Les informations concernant la collecte et le traitement des données personnelles (politique et déclaration)
       sont fournies dans la charte de données personnelles du site."
     paragraph-6: "Tous droits réservés - 29 juin 2021"
+  resume:
+    title: "Devedanos | CV"
+    cv-aria-label: "CV en PDF"
 forms:
   contact:
     full-name:
@@ -108,6 +114,7 @@ links:
   home: "Accueil"
   home-logo: "Logo de Devedanos. Cliquez dessus pour retourner en page d'accueil"
   legal-notices: "Mentions légales"
+  resume: 'CV'
 navbar:
   nav-main:
     button-mobile-menu:

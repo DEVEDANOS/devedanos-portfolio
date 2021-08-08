@@ -73,3 +73,12 @@ a {
 .banner-min-height {
   min-height: 42rem;
 }
+
+.pdf-object {
+  min-height:100vh;
+  width:100%;
+}
+
+.no-pdf-reader {
+  @apply px-12 pt-8;
+}
