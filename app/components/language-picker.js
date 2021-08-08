@@ -19,7 +19,7 @@ export default class LanguagePickerComponent extends Component {
     const languagePicker = document.querySelector('.language-picker__dropdown');
     const language = event.target.getAttribute('data-value');
     this.intl.setLocale([language]);
-    this.language = await this.intl.locale[0];
+    this.language = this.intl.locale[language];
     languagePicker.classList.add('hidden');
   }
 }
