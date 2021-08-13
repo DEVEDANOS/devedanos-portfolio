@@ -3,36 +3,31 @@
   height: 24rem;
 
   &__card {
-    @apply h-80;
-    @apply flex-none;
-    @apply mt-1;
-    @apply rounded-lg;
-    @apply bg-white;
-    @apply shadow-lg;
+    @apply h-80 flex-none mt-1 rounded-lg bg-white shadow-lg;
 
     left: 0;
     width: 20.4rem;
 
-    @media screen and (min-width: theme('screens.xs')) {
-      /* left: .16rem; */
+    /* @media screen and (min-width: theme('screens.xs')) {
+      left: .16rem;
     }
 
     @media screen and (min-width: theme('screens.sm')) {
-     /* left: 1rem; */
+      left: 1rem;
     }
 
     @media screen and (min-width: theme('screens.md')) {
-      /* left: -4rem; */
+      left: -4rem;
     }
 
     @media screen and (min-width: theme('screens.lg')) {
-      /* left: 0; */
-    }
-
+      left: 0;
+    } */
   }
 
   &__card-content {
     padding: 1rem 2rem;
+    height: 100%;
   }
 
   &__card-img {
