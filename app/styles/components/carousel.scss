@@ -1,17 +1,6 @@
 .carousel {
-  @apply relative;
-  @apply flex;
-  @apply flex-row;
-  @apply flex-nowrap;
-  @apply space-x-32;
-  @apply xs:h-4/5;
-  @apply w-full;
-  @apply px-6;
-  @apply sm:px-14;
-  @apply md:px-40;
-  @apply lg:px-60;
-  @apply overflow-y-scroll;
-  height: 77%;
+  @apply relative flex flex-row flex-nowrap space-x-32 xs:h-4/5 w-full px-6 sm:px-14 md:px-40 lg:px-60 overflow-y-scroll;
+  height: 24rem;
 
   &__card {
     @apply h-80;
