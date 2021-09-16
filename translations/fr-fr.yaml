@@ -79,7 +79,7 @@ pages:
       12 Avenue des Fauvettes, 78340 LES CLAYES SOUS BOIS."
     paragraph-3: "N° de TVA intracommunautaire : FR 05 847 696 416."
     paragraph-4: "Directeur de la publication : Sébastien NOBOUR, Dirigeant de SEBASTIEN THIBAUT NOBOUR
-    Micro-entreprise, joignable au +33658501427 ou à l'adresse contact@devedanos.com."
+    Micro-entreprise, joignable au +33658501427 ou à l'adresse sebastien@devedanos.com."
     paragraph-5: "Le site est hébergé par Amazon Web Services, Inc., 410 Terry Ave North, Seattle , WA 98109-5210 , US.
       Les informations concernant la collecte et le traitement des données personnelles (politique et déclaration)
       sont fournies dans la charte de données personnelles du site."
@@ -94,7 +94,7 @@ forms:
       placeholder: "ex: Sébastien NOBOUR - Devedanos"
     email:
       label: "Adresse email"
-      placeholder: "ex: contact@devedanos.com"
+      placeholder: "ex: sebastien@devedanos.com"
     message:
       label: "Message"
       placeholder: "Écrivez votre message ici"

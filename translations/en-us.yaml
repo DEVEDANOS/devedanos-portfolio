@@ -75,7 +75,7 @@ pages:
       whose head office is located at 12 Avenue des Fauvettes, 78340 LES CLAYES SOUS BOIS."
     paragraph-3: "International VAT number: FR 05 847 696 416."
     paragraph-4: "Director of the publication : Sébastien NOBOUR, Manager of SEBASTIEN THIBAUT NOBOUR Micro-entreprise,
-    reachable at +33658501427 or at contact@devedanos.com."
+    reachable at +33658501427 or at sebastien@devedanos.com."
     paragraph-5: "The site is hosted by Amazon Web Services, Inc, 410 Terry Ave North, Seattle , WA 98109-5210 , US.
       Information regarding the collection and processing of personal data (policy and statement) is provided
       in the site's personal data policy."
@@ -90,7 +90,7 @@ forms:
       placeholder: "ex: Sébastien NOBOUR - Devedanos"
     email:
       label: "Email address"
-      placeholder: "ex: contact@devedanos.com"
+      placeholder: "ex: sebastien@devedanos.com"
     message:
       label: "Message"
       placeholder: "Write your message here"
