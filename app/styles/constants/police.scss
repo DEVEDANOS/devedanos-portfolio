@@ -1,3 +1,21 @@
+body,
+a,
+button,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', Fallback, sans-serif;
+}
+
+h2 {
+  font-family: 'Khand', Fallback, sans-serif;
+}
+
+h1 {
+  font-family: 'Nobile', Fallback, sans-serif;
+}
+
 .text-white {
   color: $white;
 }

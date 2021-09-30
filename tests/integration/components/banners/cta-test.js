@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
-import { render, pauseTest } from '@ember/test-helpers';
+import { render /* pauseTest */ } from '@ember/test-helpers';
 import { hbs } from 'ember-cli-htmlbars';
 import { setupIntl, setLocale } from 'ember-intl/test-support';
 

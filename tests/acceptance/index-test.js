@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { visit, click, /* pauseTest */ } from '@ember/test-helpers';
+import { visit, click /* pauseTest */ } from '@ember/test-helpers';
 import { setupApplicationTest } from 'ember-qunit';
 import { setupIntl, t } from 'ember-intl/test-support';
 
@@ -8,7 +8,6 @@ module('Acceptance | index', function (hooks) {
   setupIntl(hooks);
 
   test('it changes language to en-us', async function (assert) {
-
     await visit('/');
     await click('[data-test=language-picker-button]');
     await click('[data-test=language-picker-en-us]');

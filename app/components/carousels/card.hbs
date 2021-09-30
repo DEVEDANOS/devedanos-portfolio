@@ -1,14 +1,17 @@
 <div class="card carousel__card carousel__card--creations">
   <div class="carousel__card-content">
+
     {{#if @url}}
-      <h2 class="mb-1 text-base font-medium"><a href="{{ @url }}">{{ @name }}</a></h2>
+      <a class="mb-1" href="{{ @url }}">{{ @name }}</a>
     {{else}}
-      <h2 class="mb-1 text-base font-medium">{{ @name }}</h2>
+      <h3 class="mb-1">{{ @name }}</h3>
     {{/if}}
+
     <p class="mb-1 h-12">{{ @description }}</p>
-    <LinkTo @route="index" class="invisible text-base font-medium" aria-current="page">
+    <LinkTo @route="index" class="invisible" aria-current="page">
       {{t "buttons.details"}}
     </LinkTo>
+
     {{#if @url}}
       <a href="{{@url}}" target="_blank" rel="noopener noreferrer">
         <img src="{{@imgSrc}}" alt="{{@imgAlt}}" class="carousel__card-img">
