@@ -22,6 +22,9 @@ module.exports = function (defaults) {
     'ember-service-worker': {
       enabled: false,
     },
+    sourcemaps: {
+      enabled: true,
+    },
     fingerprint: {
       extensions: ['js', 'css', 'scss', 'map', 'json', 'md', 'jpg', 'jpeg', 'png'],
     },
