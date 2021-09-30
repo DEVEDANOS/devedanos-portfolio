@@ -123,7 +123,7 @@ navbar:
     contact:
       text: 'Request a quote'
 social-medias:
-  title: "Let's keep in touch"
+  title: "Let's keep in touch!"
   links:
     twitter:
       alt: "Twitter logo"
