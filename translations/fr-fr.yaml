@@ -69,8 +69,8 @@ pages:
         je m'efforce d'être constructif dans mes propos et faire vivre une excellente expérience utilisateur."
         line-3: "Je suis spécialisé sur le langage de programmation Javascript et préfère utiliser son framework
         backend Node.js au lieu de PHP, bien que j'ai aussi été développeur PHP (avec les frameworks Symfony,
-        API-Platform ou CMS Wordpress)"
-        line-4: "Et pour en savoir plus, voici mon CV"
+        API-Platform ou CMS Wordpress)."
+        line-4: "Et pour en savoir plus, voici mon CV."
   legal-notices:
     title: "Devedanos | Mentions Légales"
     paragraph-1: "Identification de l'éditeur et de l'hébergeur du site"
@@ -99,7 +99,7 @@ forms:
       label: "Message"
       placeholder: "Écrivez votre message ici"
     submit:
-      title: "DEMANDER UN DEVIS MAINTENANT !"
+      title: "DEMANDER UN DEVIS MAINTENANT&nbsp;!"
 languages:
   list:
     fr-fr: "Français"
