@@ -46,8 +46,8 @@ pages:
             description: "Application web MVC développée en Symfony 5 répliquant AirBnB."
             alt: "capture d'écran de sym-5-bnb"
           coaching:
-            description: "Développeur junior ou étudiant ? Réservez votre heure gratuite de coaching !"
-            alt: "Un développeur web aidé par son coach."
+            description: "Développeur junior ou étudiant&nbsp;? Réservez votre heure gratuite de coaching !"
+            alt: "Un cadre pour une peinture."
       cta:
         title: "Demandez un devis !"
         availability : "Je suis disponible immédiatement"

@@ -1,6 +1,5 @@
 body,
 a,
-button,
 h3,
 h4,
 h5,
@@ -8,7 +7,9 @@ h6 {
   font-family: 'Montserrat', Fallback, sans-serif;
 }
 
-h2 {
+h2,
+button,
+.button-contact {
   font-family: 'Khand', Fallback, sans-serif;
 }
 
