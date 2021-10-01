@@ -10,21 +10,21 @@
   }
 
   &--usp {
-    background-image: url('/assets/images/backgrounds/bg-banner-wrapper__usp.webp');
     background-size: cover;
     width: 100%;
     z-index: 0;
 
     @media screen and (min-width: theme('screens.xs')) {
-      background-position: 80% 0;
+      background-image: url('/assets/images/backgrounds/xs-bg-banner-wrapper__usp.webp');
     }
 
     @media screen and (min-width: theme('screens.sm')) {
-      background-position: 55% 0;
+      background-image: url('/assets/images/backgrounds/sm-bg-banner-wrapper__usp.webp');
+      background-position: 80% 0;
     }
 
     @media screen and (min-width: theme('screens.lg')) {
-      background-position: 0 70%;
+      background-image: url('/assets/images/backgrounds/lg-bg-banner-wrapper__usp.webp');
     }
   }
 
@@ -75,7 +75,7 @@
     height: 100%;
 
     &--usp {
-      @apply mx-auto align-middle py-2 px-3 rounded bg-black--smock bg-blur;
+      @apply ml-6 sm:mx-auto rounded bg-black--smock bg-blur w-52 sm:w-2/3 lg:w-2/5;
     }
 
     &--services {
