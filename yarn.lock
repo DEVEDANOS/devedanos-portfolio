@@ -7341,7 +7341,7 @@ emojis-list@^3.0.0:
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
-empress-blog@^3.2.0:
+empress-blog@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/empress-blog/-/empress-blog-3.4.0.tgz#447384eb43db41112ff3cec4b8e83b0b7d253ba5"
   integrity sha512-6m2c0GT6PNUFzeVJkeJ3yUtTUrCq/9VKsdri1crpF61tXAX/VcK1EKEdQRfOeYVe+doFzhujTShDdvdsr2uzhw==
