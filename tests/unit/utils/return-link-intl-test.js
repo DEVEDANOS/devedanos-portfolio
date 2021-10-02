@@ -37,12 +37,6 @@ module('Unit | Utility | returnLinkIntl', function () {
     assert.equal(result, linkEn);
   });
 
-  test('it returns en-us link when language does not exist', function (assert) {
-    intlStub.primaryLocale = primaryLocaleUnknown();
-    const result = returnLinkIntl(intlStub, mapLinks);
-    assert.equal(result, linkEn);
-  });
-
   test('it returns error when no Map given', function (assert) {
     intlStub.primaryLocale = primaryLocaleUnknown();
     const result = returnLinkIntl(intlStub, { });
