@@ -112,6 +112,10 @@
 
     &--creations {
       @apply px-0;
+
+      .carousel__card-img {
+        @apply border border-black;
+      }
     }
 
     &--cta {

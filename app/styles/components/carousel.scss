@@ -30,12 +30,10 @@
   }
 
   &__card-img {
-    @apply border;
-    @apply border-black;
     position: relative;
     top: 2rem;
     width: 260px;
     height: 135px;
-    object-fit: fill;
+    object-fit: cover;
   }
 }
