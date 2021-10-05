@@ -29,8 +29,8 @@ pages:
           devops:
             description: "Deployment of SPAs and APIs with CI/CD pipelines and Docker containers on Amazon Web Services"
             alt: "Image of a cloud"
-          coaching:
-            description: "Coaching for junior and student web developer"
+          mentoring:
+            description: "Mentoring for junior and student web developer"
             alt: "A frame for a painting."
       creations:
         title: "Here are some of my realisations"
@@ -44,8 +44,8 @@ pages:
           sym-bnb:
             description: "MVC web application built with Symfony 5 and replicating AirBnB."
             alt: "Sym5bnb screenshot"
-          coaching:
-            description: "Junior or student web developer? Book your 1 hour free coaching!"
+          mentoring:
+            description: "Junior or student web developer? Book your 1 hour free mentoring!"
             alt: "A web developer helped by his coach."
       cta:
         title: "Request a quote!"

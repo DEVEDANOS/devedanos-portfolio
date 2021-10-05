@@ -30,8 +30,8 @@ pages:
             description: "Deploiement de SPAs and APIs via pipelines CI/CD et containers Docker dans le Cloud
             Amazon Web Services"
             alt: "Image d'un nuage"
-          coaching:
-            description: "Coaching pour développeur web junior et étudiant."
+          mentoring:
+            description: "Mentoring pour développeur web junior et étudiant."
             alt: "Un développeur web aidé par son coach."
       creations:
         title: "Voici quelques-unes de mes réalisations"
@@ -45,8 +45,8 @@ pages:
           sym-bnb:
             description: "Application web MVC développée en Symfony 5 répliquant AirBnB."
             alt: "capture d'écran de sym-5-bnb"
-          coaching:
-            description: "Développeur junior ou étudiant&nbsp;? Réservez votre heure gratuite de coaching !"
+          mentoring:
+            description: "Développeur junior ou étudiant&nbsp;? Réservez votre heure gratuite de mentoring !"
             alt: "Un cadre pour une peinture."
       cta:
         title: "Demandez un devis !"
