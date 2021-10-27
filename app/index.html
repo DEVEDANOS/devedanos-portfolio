@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://www.devedanos.com" rel="canonical">
-
-  {{content-for "head"}}
-  <link rel="icon" type="image/png" href="{{rootURL}}assets/images/devedanos/favicon/favicon_symbol.png">
-  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/devedanos-portfolio.css">
-
+  <link itemprop="thumbnailUrl"
+        href="https://www.devedanos.com/assets/images/backgrounds/lg-bg-banner-wrapper__usp.webp"
+  >
+  <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+    <link itemprop="url" href="https://www.devedanos.com/assets/images/backgrounds/lg-bg-banner-wrapper__usp.webp">
+  </span>
   <!-- Primary Meta Tags (I used https://metatags.io/) -->
   <title>Devedanos.com: portfolio of Sébastien NOBOUR, freelance web applications developer</title>
   <meta name="title" content="Devedanos.com: portfolio of Sébastien NOBOUR, freelance web applications developer">
@@ -40,7 +40,7 @@
         and Client Side Rendering (CSR) and JAMStack, backend (back-end) APIs JSON REST GRAPHQL,
         devops for Continuous Integration Continuous Deployment (CI/CD), automated testing, Docker containers ;
         SEO, responsive HTML and CSS.">
-  <meta property="og:image" content="/assets/images/backgrounds/lg-bg-banner-wrapper__usp.webp">
+  <meta property="og:image" content="https://www.devedanos.com/assets/images/backgrounds/lg-bg-banner-wrapper__usp.webp">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
@@ -57,7 +57,29 @@
         and Client Side Rendering (CSR) and JAMStack, backend (back-end) APIs JSON REST GRAPHQL,
         devops for Continuous Integration Continuous Deployment (CI/CD), automated testing, Docker containers ;
         SEO, responsive HTML and CSS.">
-  <meta property="twitter:image" content="/assets/images/backgrounds/lg-bg-banner-wrapper__usp.webp">
+  <meta property="twitter:image" content="https://www.devedanos.com/assets/images/backgrounds/lg-bg-banner-wrapper__usp.webp">
+
+  <!-- LinkedIn -->
+  <meta property="linkedin:card" content="summary_large_image">
+  <meta property="linkedin:url" content="https://www.devedanos.com/">
+  <meta property="linkedin:title"
+        content="Devedanos.com: portfolio of Sébastien NOBOUR, freelance web applications developer">
+  <meta property="twitter:description" content="Développeur web full-stack freelance ReactJS NextJS NodeJS AWS proche de Paris, France.
+        Devedanos web development by Sébastien Thibaut NOBOUR. J'aide les entreprises à créer leurs propres
+        applications web sur mesure.
+        Sébastien NOBOUR, freelance full-stack developer ReactJS NextJS NodeJS AWS near Paris, France.
+        I help companies to build their own custom web applications.
+
+        Services: frontend (front-end) Single Page Application (SPA) with Server Side Rendering (SSR)
+        and Client Side Rendering (CSR) and JAMStack, backend (back-end) APIs JSON REST GRAPHQL,
+        devops for Continuous Integration Continuous Deployment (CI/CD), automated testing, Docker containers ;
+        SEO, responsive HTML and CSS.">
+  <meta property="linkedin:image" content="https://www.devedanos.com/assets/images/backgrounds/lg-bg-banner-wrapper__usp.webp">
+
+  {{content-for "head"}}
+  <link rel="icon" type="image/png" href="{{rootURL}}assets/images/devedanos/favicon/favicon_symbol.png">
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/devedanos-portfolio.css">
   {{content-for "head-footer"}}
   <script defer data-domain="devedanos.com" src="https://plausible.io/js/plausible.js"></script>
 </head>
