@@ -2,8 +2,6 @@
 
 User-agent: *
 Allow: /
-
-User-agent: *
-Disallow: https://blog.devedanos.com/
+Disallow: /https://blog.devedanos.com/
 
 Sitemap: https://www.devedanos.com/sitemap.xml
