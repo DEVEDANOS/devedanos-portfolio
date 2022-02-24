@@ -36,6 +36,9 @@ pages:
       creations:
         title: "Voici quelques-unes de mes réalisations"
         card:
+          weekandgo:
+            description: "Marketplace de niche pour véhicules de loisirs. Next.js, API Platform, et CMS headless en Strapi."
+            alt: "capture d'écran de www.weekandgo.com"
           nobour-eshop:
             description: "SPA et API REST e-commerce en MERN stack et Docker, déployée sur AWS via CI/CD."
             alt: "capture d'écran de www.nobour-eshop.com"
