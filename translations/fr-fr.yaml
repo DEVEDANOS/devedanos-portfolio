@@ -77,16 +77,16 @@ pages:
   legal-notices:
     title: "Devedanos | Mentions Légales"
     paragraph-1: "Identification de l'éditeur et de l'hébergeur du site"
-    paragraph-2: "Le site www.devedanos.com est édité par SEBASTIEN THIBAUT NOBOUR Micro-entreprise, entreprise
-      immatriculée au RCS de VERSAILLES sous le numéro 847696416, dont le siège social est sis au
-      12 Avenue des Fauvettes, 78340 LES CLAYES SOUS BOIS."
-    paragraph-3: "N° de TVA intracommunautaire : FR 05 847 696 416."
-    paragraph-4: "Directeur de la publication : Sébastien NOBOUR, Dirigeant de SEBASTIEN THIBAUT NOBOUR
-    Micro-entreprise, joignable au +33658501427 ou à l'adresse sebastien@devedanos.com."
+    paragraph-2: "Le site www.devedanos.com est édité par S NOBOUR SASU, entreprise
+      immatriculée au RCS de NANTERRE sous le numéro 910 383 116, dont le siège social est sis au
+      4 AVENUE LAURENT CÉLY, 92606 ASNIÈRES-SUR-SEINE CEDEX, FRANCE."
+    paragraph-3: "N° de TVA intracommunautaire : N/A."
+    paragraph-4: "Directeur de la publication : Sébastien NOBOUR, Dirigeant de S NOBOUR SASU,
+    joignable au +33658501427 ou à l'adresse sebastien@devedanos.com."
     paragraph-5: "Le site est hébergé par Amazon Web Services, Inc., 410 Terry Ave North, Seattle , WA 98109-5210 , US.
       Les informations concernant la collecte et le traitement des données personnelles (politique et déclaration)
       sont fournies dans la charte de données personnelles du site."
-    paragraph-6: "Tous droits réservés - 29 juin 2021"
+    paragraph-6: "Tous droits réservés - 29 juin 2022"
   resume:
     title: "Devedanos | CV"
     cv-aria-label: "CV en PDF"
@@ -152,15 +152,15 @@ contacts:
     title: "sebastien@devedanos.com"
     alt: "Icône d'email"
   location:
-    title: "12 Avenue des Fauvettes, 78340, LES CLAYES SOUS BOIS, FRANCE"
+    title: "4 Avenue Laurent Cély, 92606, ASNIÈRES-SUR-SEINE CEDEX, FRANCE"
     alt: "Îcone d'un pointeur de localisation"
   vat:
-    siret: "SIRET français: 847696416 00019"
-    international: "N° de TVA Intracommunautaire: FR 05 847696416"
+    siret: "SIRET français: 910 383 116 00019"
+    international: "N° de TVA Intracommunautaire: N/A"
     alt: "Icône d'une poignée de main"
 credits:
   developed: "Developpé avec"
   empress: "Empress"
-  by: "par Sébastien NOBOUR © Devedanos - 2021"
+  by: "par Sébastien NOBOUR © Devedanos - 2022"
   source-code: "Code source du site"
 
