@@ -80,7 +80,7 @@ pages:
     paragraph-2: "Le site www.devedanos.com est édité par S NOBOUR SASU, entreprise
       immatriculée au RCS de NANTERRE sous le numéro 910 383 116, dont le siège social est sis au
       4 AVENUE LAURENT CÉLY, 92606 ASNIÈRES-SUR-SEINE CEDEX, FRANCE."
-    paragraph-3: "N° de TVA intracommunautaire : N/A."
+    paragraph-3: "N° de TVA intracommunautaire : FR94910383116."
     paragraph-4: "Directeur de la publication : Sébastien NOBOUR, Dirigeant de S NOBOUR SASU,
     joignable au +33658501427 ou à l'adresse sebastien@devedanos.com."
     paragraph-5: "Le site est hébergé par Amazon Web Services, Inc., 410 Terry Ave North, Seattle , WA 98109-5210 , US.
@@ -155,8 +155,8 @@ contacts:
     title: "4 Avenue Laurent Cély, 92606, ASNIÈRES-SUR-SEINE CEDEX, FRANCE"
     alt: "Îcone d'un pointeur de localisation"
   vat:
-    siret: "SIRET français: 910 383 116 00019"
-    international: "N° de TVA Intracommunautaire: N/A"
+    siret: "SIRET français: 910 383 116 00019 R.C.S NANTERRE"
+    international: "N° de TVA Intracommunautaire: FR94910383116"
     alt: "Icône d'une poignée de main"
 credits:
   developed: "Developpé avec"

@@ -76,7 +76,7 @@ pages:
     paragraph-2: "The website www.devedanos.com is edited by S NOBOUR SASU,
       a company registered at the RCS of NANTERRE under the number 910 383 116,
       whose head office is located at 4 AVENUE LAURENT CÉLY, 92606 ASNIÈRES-SUR-SEINE CEDEX, FRANCE."
-    paragraph-3: "International VAT number: N/A."
+    paragraph-3: "International VAT number: FR94910383116."
     paragraph-4: "Director of the publication : Sébastien NOBOUR, CEO of S NOBOUR SASU,
     reachable at +33658501427 or at sebastien@devedanos.com."
     paragraph-5: "The site is hosted by Amazon Web Services, Inc, 410 Terry Ave North, Seattle , WA 98109-5210 , US.
@@ -150,8 +150,8 @@ contacts:
     title: "4 Avenue Laurent Cély, 92606, ASNIÈRES-SUR-SEINE CEDEX, FRANCE"
     alt: "location pin icon"
   vat:
-    siret: "SIRET français: 910 383 116 00019"
-    international: "N° de TVA Intracommunautaire: N/A"
+    siret: "French company ID: 910 383 116 00019 R.C.S NANTERRE"
+    international: "International VAT number: FR94910383116"
     alt: "Handshake icon"
 credits:
   developed: "Developed with"
