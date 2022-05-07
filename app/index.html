@@ -42,7 +42,7 @@
           and Client Side Rendering (CSR) and JAMStack, backend (back-end) APIs JSON REST GRAPHQL,
           devops for Continuous Integration Continuous Deployment (CI/CD), automated testing, Docker containers ;
           SEO, responsive HTML and CSS.">
-    <meta property="og:image" content="https://www.devedanos.com/assets/images/devedanos/web/jgp/color-logo-no-background.jpg">
+    <meta property="og:image" content="https://www.devedanos.com/assets/images/devedanos/web/png/color-logo-no-background.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -78,10 +78,11 @@
           SEO, responsive HTML and CSS.">
     <meta property="linkedin:image" content="https://www.devedanos.com/assets/images/backgrounds/lg-bg-banner-wrapper__usp.webp">
 
-    {{content-for "head"}}
-    <link rel="icon" type="image/png" href="https://www.devedanos.com/assets/images/devedanos/favicon/favicon_symbol.png">
+    <link rel="icon" type="image/x-icon" href="{{rootURL}}assets/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="{{rootURL}}assets/icons/apple-touch-icon.png">
     <!--  <link rel="icon" href="/favicon.svg" type="image/svg+xml">-->
-    <!--  <link rel="apple-touch-icon" href="/apple-touch-icon.png">-->
+
+    {{content-for "head"}}
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/devedanos-portfolio.css">
     {{content-for "head-footer"}}

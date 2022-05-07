@@ -1,8 +1,15 @@
 {{page-title (t "links.resume") }}
 <div class="page">
+  <a href="{{this.resumeUrl}}" download data-pdf-document-download data-test="pdf-document-download">
+    {{t "messages.download-pdf"}}
+  </a>
   <object
-    data="{{this.resumeUrl}}" type="application/pdf"
-    aria-label="{{t "pages.resume.cv-aria-label" }}" class="pdf-object" data-pdf-document data-test="pdf-document"
+    data="{{this.resumeUrl}}"
+    type="application/pdf"
+    aria-label="{{t "pages.resume.cv-aria-label" }}"
+    class="pdf-object"
+    data-pdf-document
+    data-test="pdf-document"
   >
     <div class="no-pdf-reader">
       <p>
