@@ -1,6 +1,6 @@
 import EmberError from '@ember/error';
 
-export default function returnLinkIntl (intlService, mapLinks) {
+export default function getLinkIntl (intlService, mapLinks) {
   try {
     if (!(mapLinks instanceof Map)) {
       throw new EmberError('The object providing links should be a Map');

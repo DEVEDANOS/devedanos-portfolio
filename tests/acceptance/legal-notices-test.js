@@ -9,7 +9,7 @@ module('Acceptance | Legal notices', function (hooks) {
     await visit('/legal-notices');
     assert.equal(currentURL(), '/legal-notices');
 
-    await click('[data-test=nav-quote-request]');
+    await click('[data-test=nav-cta-button]');
     assert.equal(currentURL(), '/');
 
     assert

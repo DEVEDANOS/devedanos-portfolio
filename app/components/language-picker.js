@@ -3,6 +3,7 @@ import { inject as service } from '@ember/service';
 
 export default class LanguagePickerComponent extends Component {
   @service intl;
+  @service router;
 
   language = this.intl.locale;
 
@@ -18,8 +19,10 @@ export default class LanguagePickerComponent extends Component {
   changeLanguage = async (event) => {
     const languagePicker = document.querySelector('.language-picker__dropdown');
     const language = event.target.getAttribute('data-value');
-    this.intl.setLocale([language]);
-    this.language = this.intl.locale[language];
+
+    this.router.transitionTo({ queryParams: { language } });
+    // this.intl.setLocale([language]);
+    // this.language = this.intl.locale[language];
     languagePicker.classList.add('hidden');
   }
 }

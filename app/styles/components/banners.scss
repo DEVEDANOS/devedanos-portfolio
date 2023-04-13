@@ -44,7 +44,7 @@
   &--process {
     @apply bg-gray-50;
 
-    height: 42rem;
+    height: auto;
   }
 
   &--about-me {
@@ -75,7 +75,7 @@
     height: 100%;
 
     &--usp {
-      @apply ml-6 sm:mx-auto rounded bg-black--smock bg-blur w-52 sm:w-2/3 lg:w-2/5;
+      @apply mx-auto rounded bg-black--smock bg-blur w-52 sm:w-2/3 lg:w-2/5;
     }
 
     &--services {

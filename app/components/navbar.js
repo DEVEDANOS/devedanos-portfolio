@@ -1,10 +1,13 @@
 import Component from '@glimmer/component';
 import { action } from '@ember/object';
 import { inject as service } from '@ember/service';
-import { later } from '@ember/runloop';
+// import { later } from '@ember/runloop';
+import { getLinkIntlCta } from 'devedanos-portfolio/utils/get-link-intl-cta';
 
 export default class NavbarComponent extends Component {
   @service router;
+
+  @service intl;
 
   changeMobileMenuVisibility = () => {
     const mobileMenu = document.querySelector('#mobile-menu');
@@ -22,20 +25,8 @@ export default class NavbarComponent extends Component {
   }
 
   @action
-  async requestQuote (event) {
+  async clickCta (event) {
     event.preventDefault();
-
-    if (this.router.currentURL !== '/') {
-      await this.router.transitionTo('/');
-      return later(this, () => {
-        this.goToLink();
-      }, 500);
-    }
-    this.goToLink();
-  }
-
-  goToLink () {
-    const link = document.querySelector('[data-quote-request-link]');
-    link.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
+    window.open(getLinkIntlCta(this.intl));
   }
 }

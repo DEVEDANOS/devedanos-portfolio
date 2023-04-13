@@ -94,5 +94,6 @@
   "ember": {
     "edition": "octane"
   },
-  "main": "/app/app.js"
+  "main": "/app/app.js",
+  "dependencies": {}
 }

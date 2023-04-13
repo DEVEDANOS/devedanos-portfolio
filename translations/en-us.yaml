@@ -15,10 +15,11 @@ pages:
         image:
           description: "Image with view of a sunset, clouds and mountain peaks below"
       services:
-        introduction: "Hello! I am Sébastien NOBOUR, freelance French web application developer near Paris,
+        introduction: "Hello! I am Sébastien NOBOUR, freelance French web application developer, full-remote working,
         specialized on Node.js and Javascript."
         title: "And this is how I can help you"
         card:
+#          seo, maintenance, performances audits
           frontend:
             description: "Development of responsive Single Page Applications with React.js or Next.js frameworks
             for better SEO and UX."
@@ -51,16 +52,21 @@ pages:
             description: "Junior or student web developer? Book your 1 hour free mentoring!"
             alt: "A web developer helped by his coach."
       cta:
-        title: "Request a quote!"
-        availability : "I am immediately available"
+        title: "I am looking for a freelance developer to bring my project to life and complete my team!"
+#        availability : "I am immediately available"
       process:
-        title: "'What happens once I requested a quote?'"
-        line-1: "After analyzing the global description of your project, you will receive my decision about your support
-        by email. If I can help you, you will be able to book a first call through a link in the very email."
-        line-2: "During the first call, I will try to identify your project precisely in order to prepare a
-        a detailed quote."
-        line-3: "Finally, after our first call, you will receive the quote by email and I will contact you by phone to
-        to hear your decision."
+        title: "'What happens after I contact you through the form?'"
+        line-1: "After analyzing the description of your project, if I can accompany you, I will send you an email 
+        so that we can set up a physical meeting or a videoconference with your tools or mine (probably more 
+        adapted since I live near Maastricht, Netherlands)."
+        line-2: "During the meeting, we will try to get to know each other better, and then to precisely identify the 
+        goals of your project in order to understand or even advise on the functionalities to be developed, 
+        how to organize their development, which technologies to use and have a first idea of the visual style for 
+        the application if no specifications book exists."
+        line-3: "At the end of this meeting, we will determine the next step to take according to the situation. 
+        We will be able to decide whether fixed-price or time-based billing is more appropriate for your needs. 
+        If no functional and technical specifications exist beforehand, I will propose you elaborate 
+        it together (legally required, even with Agile methodology)."
       about-me:
         title: "About me"
         line-1: "I started web development in September 2018. I graduated as an application developer of applications
@@ -82,7 +88,7 @@ pages:
     paragraph-5: "The site is hosted by Amazon Web Services, Inc, 410 Terry Ave North, Seattle , WA 98109-5210 , US.
       Information regarding the collection and processing of personal data (policy and statement) is provided
       in the site's personal data policy."
-    paragraph-6: "All rights reserved - June 29, 2022"
+    paragraph-6: "All rights reserved - June 29, 2023"
   resume:
     title: "Devedanos | Resume"
     cv-aria-label: "PDF resume"
@@ -98,7 +104,7 @@ forms:
       label: "Message"
       placeholder: "Write your message here"
     submit:
-      title: "REQUEST A QUOTE NOW!"
+      title: "DEVELOP MY APPLICATION!"
 languages:
   list:
     fr-fr: 'Français'
@@ -124,7 +130,7 @@ navbar:
       button-image:
         alt: '{language} language is currently active.'
     contact:
-      text: 'Request a quote'
+      text: 'Develop my application'
 social-medias:
   title: "Let's keep in touch!"
   links:
@@ -156,5 +162,5 @@ contacts:
 credits:
   developed: "Developed with"
   empress: "Empress"
-  by: "by Sébastien NOBOUR © Devedanos - 2022"
+  by: "by Sébastien NOBOUR © Devedanos - 2023"
   source-code: "Website source code"

@@ -16,7 +16,7 @@ pages:
           description: "Image avec vue sur un coucher de soleil, des nuages et sommets de montagnes en contrebas"
       services:
         introduction: "Bonjour ! Je suis Sébastien NOBOUR,
-        développeur freelance français d'applications web, proche de Paris, spécialisé sur Node.js et Javascript."
+        développeur freelance français d'applications web, opérant à 100% en télétravail, spécialisé sur Node.js et Javascript."
         title: "Voici comment je peux vous aider"
         card:
           frontend:
@@ -52,22 +52,27 @@ pages:
             description: "Développeur junior ou étudiant&nbsp;? Réservez votre heure gratuite de mentoring !"
             alt: "Un cadre pour une peinture."
       cta:
-        title: "Demandez un devis !"
-        availability : "Je suis disponible immédiatement"
+#         blog ideas: what is agile, when to call a freelance developer, how to handle the development of an application, how to maintain + provide maintenance services
+        title: "Je cherche un développeur freelance pour donner vie à mon mon projet et compléter mon équipe !"
+#        availability : "Je suis disponible immédiatement"
       process:
-        title: "'Que se passe-t-il une fois que j'ai demandé un devis ?'"
-        line-1: "Après avoir analysé la description globale de votre projet, vous recevrez ma décision d'accompagnement
-        par email. Si je peux vous accompagner, vous pourrez réserver un premier appel via un lien dans
-        l'email même."
-        line-2: "Au cours du premier appel, je chercherai à cerner précisément votre projet pour vous préparer un
-        devis détaillé."
-        line-3: "Enfin, après notre premier appel, vous recevrez le devis par email et je vous recontacterai par
-        téléphone pour entendre votre décision."
+        title: "'Que se passe-t-il une fois que je vous ai contacté via le formulaire ?'"
+        line-1: "Après avoir analysé la description de votre projet, si je peux vous accompagner, je vous enverrai 
+        un email pour que nous fixions un rendez-vous physique ou en visio-conférence avec vos outils ou les miens (probablement plus adapté puisque je vis vers Maastricht, Pays-Bas)."
+#  https://open.spotify.com/episode/5gONi6NGBEbJgBTcZNhjAj?si=Y3bIVWvFRvSSCn4tvdAhJg cahier des charges obligatoire
+        line-2: "Au cours du rendez-vous, nous chercherons à mieux nous connaître, puis à cerner précisément 
+        les objectifs de votre projet afin de comprendre voire conseiller sur les fonctionnalités à développer, 
+        comment organiser leurs développements, quelles technologies utiliser  et avoir une première idée du 
+        style visuel de l'application si aucun cahier des charges n'existe."
+        line-3: "À la fin de ce rendez-vous, nous déterminerons la suite à donner en fonction de la situation. 
+        Nous saurons apte à choisir si la facturation au forfait ou en régie est plus adaptée à votre besoin. 
+        Si aucun cahier des charges fonctionnel et technique n'existe au préalable, je vous proposerai de l'élaborer 
+        ensemble (obligatoire légalement, même em méthodologie Agile)."
       about-me:
         title: "À propos de moi"
         line-1: "J'ai commencé le développement web en septembre 2018. Je suis diplômé développeur-concepteur
-         d'applications depuis 2020. L'informatique est une passion et j'ai toujours voulu devenir
-         développeur/programmeur."
+        d'applications depuis 2020. L'informatique est une passion et j'ai toujours voulu devenir
+        développeur/programmeur."
         line-2: "Je suis également un entrepreneur. Mon mindset ? 'Client-first' et 'data-driven' dans mes décisions,
         je m'efforce d'être constructif dans mes propos et faire vivre une excellente expérience utilisateur."
         line-3: "Je suis spécialisé sur le langage de programmation Javascript et préfère utiliser son framework
@@ -86,7 +91,7 @@ pages:
     paragraph-5: "Le site est hébergé par Amazon Web Services, Inc., 410 Terry Ave North, Seattle , WA 98109-5210 , US.
       Les informations concernant la collecte et le traitement des données personnelles (politique et déclaration)
       sont fournies dans la charte de données personnelles du site."
-    paragraph-6: "Tous droits réservés - 29 juin 2022"
+    paragraph-6: "Tous droits réservés - 29 juin 2023"
   resume:
     title: "Devedanos | CV"
     cv-aria-label: "CV en PDF"
@@ -102,7 +107,7 @@ forms:
       label: "Message"
       placeholder: "Écrivez votre message ici"
     submit:
-      title: "DEMANDER UN DEVIS MAINTENANT&nbsp;!"
+      title: "DÉVELOPPER MON APPLICATION&nbsp;!"
 languages:
   list:
     fr-fr: "Français"
@@ -128,7 +133,7 @@ navbar:
       button-image:
         alt: "{language} est la langue actuellement active."
     contact:
-      text: "Demander un devis"
+      text: "Développer mon application"
 footer:
 social-medias:
   title: "Gardons contact !"
@@ -161,6 +166,6 @@ contacts:
 credits:
   developed: "Developpé avec"
   empress: "Empress"
-  by: "par Sébastien NOBOUR © Devedanos - 2022"
+  by: "par Sébastien NOBOUR © Devedanos - 2023"
   source-code: "Code source du site"
 
