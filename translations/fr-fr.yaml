@@ -19,6 +19,14 @@ pages:
         développeur freelance français d'applications web, opérant à 100% en télétravail, spécialisé sur Node.js et Javascript."
         title: "Voici comment je peux vous aider"
         card:
+#          performances:
+#            description: "Développement de Single Page Applications responsive via les frameworks React.js ou Next.js
+#            pour de meilleurs SEO et UX."
+#            alt: "Image d'interface utilisateur"
+#          seo:
+#            description: "Développement de Single Page Applications responsive via les frameworks React.js ou Next.js
+#            pour de meilleurs SEO et UX."
+#            alt: "Image d'interface utilisateur"
           frontend:
             description: "Développement de Single Page Applications responsive via les frameworks React.js ou Next.js
             pour de meilleurs SEO et UX."
@@ -26,6 +34,13 @@ pages:
           backend:
             description: "Développement d'APIs REST ou GraphQL ou JSON API avec Nest.js ou Express.js, avec bases de données SQL ou NoSQL"
             alt: "Image de traitement d'informations binaires"
+          maintenance:
+            description: "Mises à jour correctives, mineures et majeures afin d'assurer les longévité et sécurité de l'application."
+            alt: "Image de cartons représentants les packages/mini-logicielles à maintenir faisant fonctionner l'application"
+          testing:
+#            description: "Tests automatisés (unitaires, interactifs, visuels, application, système) avec playwright, jest, chromatic... pour les applications frontend et backend afin de prévenir les régressions et consolider les fonctionnalités existantes."
+            description: "Tests automatisés (unitaires, interactifs, visuels, application, système) assurant la stabilité des fonctionnalités existantes."
+            alt: "Image d'un mur en briques solides où chaque couche de briques est assurée d'être stable avant d'ajouter la couche suivante."
           devops:
             description: "Deploiement de SPAs and APIs via pipelines CI/CD et containers Docker dans le Cloud
             Amazon Web Services"
@@ -91,7 +106,7 @@ pages:
     paragraph-5: "Le site est hébergé par Amazon Web Services, Inc., 410 Terry Ave North, Seattle , WA 98109-5210 , US.
       Les informations concernant la collecte et le traitement des données personnelles (politique et déclaration)
       sont fournies dans la charte de données personnelles du site."
-    paragraph-6: "Tous droits réservés - 29 juin 2023"
+    paragraph-6: "Tous droits réservés - 1er janvier 2023"
   resume:
     title: "Devedanos | CV"
     cv-aria-label: "CV en PDF"

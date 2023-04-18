@@ -8,7 +8,7 @@ export default class ApplicationRoute extends Route {
   queryParams = {
     language: {
       refreshModel: true,
-      replace: true,
+      replace: false,
     },
   };
 

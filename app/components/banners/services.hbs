@@ -11,38 +11,38 @@
           </h2>
         </div>
         <Carousels::Carousel>
-{{!--           <Carousels::Card --}}
-{{!--               @name="Maintenance" --}}
-{{!--               @description="{{t "pages.home.banners.services.card.frontend.description" }}" --}}
-{{!--               @imgSrc="{{this.rootURL}}assets/images/services/frontend.webp" --}}
-{{!--               @imgAlt= {{t "pages.home.banners.services.card.frontend.alt" }} --}}
-{{!--           /> --}}
-{{!--           <Carousels::Card --}}
-{{!--             @name="SEO" --}}
-{{!--             @description="{{t "pages.home.banners.services.card.frontend.description" }}" --}}
-{{!--             @imgSrc="{{this.rootURL}}assets/images/services/frontend.webp" --}}
-{{!--             @imgAlt= {{t "pages.home.banners.services.card.frontend.alt" }} --}}
-{{!--           /> --}}
           <Carousels::Card
-            @name="frontend"
+            @name="Frontend"
             @description="{{t "pages.home.banners.services.card.frontend.description" }}"
             @imgSrc="{{this.rootURL}}assets/images/services/frontend.webp"
             @imgAlt= {{t "pages.home.banners.services.card.frontend.alt" }}
           />
           <Carousels::Card
-            @name="backend"
+            @name="Backend"
             @description= "{{t "pages.home.banners.services.card.backend.description" }}"
             @imgSrc="{{this.rootURL}}assets/images/services/backend.webp"
             @imgAlt= {{t "pages.home.banners.services.card.backend.alt" }}
           />
           <Carousels::Card
-            @name="devops"
+              @name="Maintenance"
+              @description="{{t "pages.home.banners.services.card.maintenance.description" }}"
+              @imgSrc="{{this.rootURL}}assets/images/services/maintenance.webp"
+              @imgAlt= {{t "pages.home.banners.services.card.maintenance.alt" }}
+          />
+          <Carousels::Card
+              @name="Automated Testing"
+              @description="{{t "pages.home.banners.services.card.testing.description" }}"
+              @imgSrc="{{this.rootURL}}assets/images/services/testing.webp"
+              @imgAlt= {{t "pages.home.banners.services.card.testing.alt" }}
+          />
+          <Carousels::Card
+            @name="Devops"
             @description={{t "pages.home.banners.services.card.devops.description" htmlSafe=true}}
             @imgSrc="{{this.rootURL}}assets/images/services/devops.webp"
             @imgAlt= {{t "pages.home.banners.services.card.devops.alt" }}
           />
           <Carousels::Card
-            @name="mentoring"
+            @name="Mentoring"
             @description={{t "pages.home.banners.services.card.mentoring.description" htmlSafe=true}}
             @imgSrc="{{this.rootURL}}assets/images/creations/mentoring.webp"
             @imgAlt= {{t "pages.home.banners.services.card.mentoring.alt" }}

@@ -19,7 +19,18 @@ pages:
         specialized on Node.js and Javascript."
         title: "And this is how I can help you"
         card:
-#          seo, maintenance, performances audits
+          #          performances:
+          #            description: "Développement de Single Page Applications responsive via les frameworks React.js ou Next.js
+          #            pour de meilleurs SEO et UX."
+          #            alt: "Image d'interface utilisateur"
+          #          seo:
+          #            description: "Développement de Single Page Applications responsive via les frameworks React.js ou Next.js
+          #            pour de meilleurs SEO et UX."
+          #            alt: "Image d'interface utilisateur"
+          #          management:
+          #            description: "Project management prioritising the delivery of high value added features...
+          #            pour de meilleurs SEO et UX."
+          #            alt: "Image d'interface utilisateur"
           frontend:
             description: "Development of responsive Single Page Applications with React.js or Next.js frameworks
             for better SEO and UX."
@@ -27,6 +38,12 @@ pages:
           backend:
             description: "Development of REST or GraphQL or JSON APIs with Nest.js or Express.js with SQL or NoSQL databases"
             alt: "Binary data processing image"
+          maintenance:
+            description: "Corrective, minor and major updates to ensure the longevity and security of the application."
+            alt: "Image of boxes representing the packages/software to be maintained running the application"
+          testing:
+            description: "Automated testing (unit, interactive, visual, application, system) insuring the stability of existing features."
+            alt: "Image of a solid brick of walls where every layer of brick is made sure being stable before adding the upcoming layer."
           devops:
             description: "Deployment of SPAs and APIs with CI/CD pipelines and Docker containers on Amazon Web Services"
             alt: "Image of a cloud"
@@ -88,7 +105,7 @@ pages:
     paragraph-5: "The site is hosted by Amazon Web Services, Inc, 410 Terry Ave North, Seattle , WA 98109-5210 , US.
       Information regarding the collection and processing of personal data (policy and statement) is provided
       in the site's personal data policy."
-    paragraph-6: "All rights reserved - June 29, 2023"
+    paragraph-6: "All rights reserved - January 1, 2023"
   resume:
     title: "Devedanos | Resume"
     cv-aria-label: "PDF resume"
