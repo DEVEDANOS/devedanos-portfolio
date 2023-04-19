@@ -121,7 +121,7 @@ forms:
       label: "Message"
       placeholder: "Write your message here"
     submit:
-      title: "DEVELOP MY APPLICATION!"
+      title: "LET ME DEVELOP YOUR APPLICATION!"
 languages:
   list:
     fr-fr: 'Français'
@@ -147,7 +147,7 @@ navbar:
       button-image:
         alt: '{language} language is currently active.'
     contact:
-      text: 'Develop my application'
+      text: 'I want you develop my application'
 social-medias:
   title: "Let's keep in touch!"
   links:

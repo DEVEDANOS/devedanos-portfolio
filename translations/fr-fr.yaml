@@ -122,7 +122,7 @@ forms:
       label: "Message"
       placeholder: "Écrivez votre message ici"
     submit:
-      title: "DÉVELOPPER MON APPLICATION&nbsp;!"
+      title: "LAISSEZ-MOI DÉVELOPPER VOTRE APPLICATION&nbsp;!"
 languages:
   list:
     fr-fr: "Français"
@@ -148,7 +148,7 @@ navbar:
       button-image:
         alt: "{language} est la langue actuellement active."
     contact:
-      text: "Développer mon application"
+      text: "Développez mon application"
 footer:
 social-medias:
   title: "Gardons contact !"
