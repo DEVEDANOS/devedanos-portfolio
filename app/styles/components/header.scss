@@ -18,6 +18,10 @@
     @apply rounded-md shadow;
     @apply button;
     @apply button--cta;
+
+    @media screen and (max-width: theme('screens.sm')) {
+      @apply text-sm;
+    }
   }
 }
 
