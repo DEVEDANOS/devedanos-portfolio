@@ -5,10 +5,8 @@ export default class LanguagePickerComponent extends Component {
   @service intl;
   @service router;
 
-  language = this.intl.locale;
-
   get imageAltMessage () {
-    return this.intl.t('navbar.nav-main.language-picker.button-image.alt', { language: this.language });
+    return this.intl.t('navbar.nav-main.language-picker.button-image.alt', { language: this.intl.primaryLocale });
   }
 
   showLanguages = () => {

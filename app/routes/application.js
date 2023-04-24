@@ -12,18 +12,33 @@ export default class ApplicationRoute extends Route {
     },
   };
 
-  model (params, transition) {
+  getLanguage (userChosenLanguage = null) {
     const arrayLocales = ['en-us', 'fr-fr'];
 
     let language = null;
 
     if (window !== undefined && window?.navigator?.languages !== undefined) {
-      const languageRegex = new RegExp('^' + params.language ?? navigator.languages[0].split('-')[0]);
+      const stringLanguage = userChosenLanguage || navigator.languages[0].split('-')[0];
+      const languageRegex = new RegExp('^' + stringLanguage);
 
       language = arrayLocales.find(l => languageRegex.test(l));
     }
 
-    if (language) this.intl.setLocale([language]);
+    this.intl.setLocale([language ?? arrayLocales[0]]);
+
+    return language;
+  }
+
+  beforeModel () {
+    const language = this.getLanguage();
+
+    return {
+      language,
+    };
+  }
+
+  model (params, transition) {
+    const language = this.getLanguage(params.language);
 
     return {
       language,
