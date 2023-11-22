@@ -122,7 +122,7 @@ forms:
       label: "Message"
       placeholder: "Écrivez votre message ici"
     submit:
-      title: "LAISSEZ-MOI DÉVELOPPER VOTRE APPLICATION&nbsp;!"
+      title: "Prendre RDV!"
 languages:
   list:
     fr-fr: "Français"
@@ -148,7 +148,7 @@ navbar:
       button-image:
         alt: "{language} est la langue actuellement active."
     contact:
-      text: "Développez mon application"
+      text: "Prendre RDV!"
 footer:
 social-medias:
   title: "Gardons contact !"
