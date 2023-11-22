@@ -77,6 +77,7 @@
     &--usp {
       @apply mx-auto rounded bg-black--smock bg-blur w-52 sm:w-2/3 lg:w-2/5;
       padding: 10px;
+      height: auto;
     }
 
     &--services {
