@@ -76,6 +76,7 @@
 
     &--usp {
       @apply mx-auto rounded bg-black--smock bg-blur w-52 sm:w-2/3 lg:w-2/5;
+      padding: 10px;
     }
 
     &--services {
@@ -100,6 +101,7 @@
 
     &--usp {
       @apply px-3;
+      height: auto;
     }
 
     &--services {
@@ -173,7 +175,7 @@
       @apply lg:px-7 text-white;
       align-items: center;
       display: flex;
-      height: 100%;
+      height: auto;
       justify-content: center;
       margin: 0;
       width: 100%;
